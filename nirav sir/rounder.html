@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+        }
+        body{
+            background: black;
+        }
+
+        .main{
+            height: 350px;
+            width: 500px;
+            /* background: lightslategray; */
+            margin: 200px auto;
+        }
+        .center{
+           height: 250px;
+           width: 50%;
+           background: lightcoral transparent;
+           
+           transform: translate( 250px, 55px);
+           border-radius: 50%;
+           border: 15px solid rgb(2, 2, 83) ;
+           border-top: 15px solid rgba(10, 96, 245, 0.919) ;
+           animation: kuchhbhi 1s linear infinite;
+          
+        }
+
+
+
+        @keyframes kuchhbhi{
+          from{ transform: rotate(0deg);}
+          to{transform: rotate(260deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <!-- <p> loding....</p> -->
+            <span class="loder"></span>
+        </div>
+    </div>
+</body>
+</html>

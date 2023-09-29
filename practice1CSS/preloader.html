@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        .main *{
+            border-radius: 50%;
+        }
+         .main{
+            height: 300px;
+            width: 300px;
+            /* background: lightblue; */
+            margin: 100px auto;
+            position: relative;
+         }
+         .a{
+            height: inherit;
+            width: inherit;
+            background:  lightsalmon;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50% );
+            border: 10px solid ;
+            border-top: 10px solid red;
+            animation: s 2s linear  infinite;
+            
+         }
+         .b{
+            height: 200px;
+            width: 200px;
+            background: lightslategray;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50% );
+            border: 10px solid ;
+            border-top: 10px solid maroon;
+            animation: s 2s reverse linear infinite;
+         }
+         .c{
+            height: 100px;
+            width: 100px;
+            background: lightgreen;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50% );
+            border: 10px solid ;
+            border-top: 10px solid magenta;
+            animation: s 2s   linear infinite;
+         }
+
+         @keyframes s{
+            from{ transform: translate(-50%,-50%) rotate(0deg);}
+            to{transform: translate(-50%,-50%) rotate(360deg); }
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+</body>
+</html>

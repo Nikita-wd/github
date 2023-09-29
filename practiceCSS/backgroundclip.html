@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .ex1{
+            background: coral;
+            padding: 35px;
+            border: 10px solid rgba(0,0,0,.23);
+            background-clip: border-box;
+         }
+         .ex2{
+            background: coral;
+            padding: 35px;
+            border: 10px solid rgba(0,0,0,.23);
+            /* background-clip: border-box; */
+            background-clip: padding-box;
+
+         }
+         .ex3{
+            background: coral;
+            padding: 35px;
+            border: 10px solid rgba(0,0,0,.23);
+            /* background-clip: border-box; */
+            background-clip: content-box;
+
+         }
+    </style>
+</head>
+<body>
+    <h2> background-clip:border-box </h2>
+
+    <div class="ex1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Minus ducimus recusandae id commodi veritatis pariatur tempore similique nihil sequi, maxime minima modi, 
+        culpa fuga sunt? Facere id laborum ipsam alias!
+    </div>
+
+    <h2> background-clip:padding-box </h2>
+
+    <div class="ex2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Tenetur voluptas, soluta itaque magnam voluptatum et ipsum,
+          veniam laudantium natus quo exercitationem? Impedit accusamus ullam voluptatem repellat rem iusto. 
+          Voluptates, doloribus.
+    </div>
+
+    <h2> background-clip:content-box </h2>
+
+    <div class="ex3"> 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Quas quia at omnis quaerat ab minima voluptate eos modi accusamus assumenda voluptatem eaque totam,
+         sit dignissimos, facere, magnam iusto. Quae, omnis?
+    </div>
+</body>
+</html>

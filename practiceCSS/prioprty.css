@@ -1,0 +1,13 @@
+h1{
+    color: yellow !important;
+}
+p{
+    color: red;
+}
+#x{
+    color: green;
+    background-color: lightblue;
+}
+.y{
+    background: lightcoral;
+}

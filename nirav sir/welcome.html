@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+           
+            
+         }
+
+         header::before{
+            background: url(samundar.jpg) no-repeat center/cover;
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.1;
+         }
+         h3{
+            font-size: 40px;
+         }
+
+         .navbar{
+            display: flex;
+            align-items: center;
+         }
+
+        section{
+            /* font-size: 20px; */
+            height: 250px;
+            margin:8px 159px;
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+            /* border: 3px solid red; */
+        }
+        p{
+            text-align: center;
+        }
+
+        ul{
+            display: flex;
+            /* padding: 20px 20px; */
+            font-size: 20px;
+            align-items: center;
+
+        }
+
+        li{
+            /* list-style: none; */
+            padding: 20px 20px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        section::before{
+            content: "Nikita kuril";
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar"> 
+           <ul>
+            <li class="item"> home</li>
+            <li class="item">  about </li>
+            <li class="item"> service</li>
+            <li class="item"> contact us</li>
+           </ul>
+        </nav>
+       
+    </header>
+    <section>
+        <h3> wlcome to cooding world</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error id labore perferendis repellat explicabo debitis quas amet, dicta fugiat accusantium maxime, minima sit ducimus commodi eveniet maiores vitae ex.</p>
+   </section>
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+    background-color: brown;
+    border: 5px solid plum;
+}
+p{
+    color: coral;
+    border: 7px solid pink;
+}
+h2{
+    color: blueviolet;
+    background-color: purple;
+    border: 5px solid palegreen;
+}
+h3{
+    color: crimson;
+    border: 5px solid red;
+}
+.x{
+    color: chartreuse;
+    background-color: yellow;
+    border: 5px solid palevioletred;
+}
+#y{
+    color: cadetblue;
+    background-color: blueviolet;
+}
+.l{
+    color: chocolate;
+    background-color: cornflowerblue;
+}

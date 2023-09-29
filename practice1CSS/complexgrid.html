@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+          background: lightblue;
+          display: grid;
+          gap: 20px;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 100px ;
+          padding: 24px;
+
+        }
+
+        .col{
+            border: 2px solid;
+            overflow: auto;
+        }
+
+        .text{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .y{
+            display: grid;
+        }
+
+        .x, .up, .down{
+            border: 2px solid;
+        }
+
+
+        .main{
+            background: gray;
+            position: relative;
+            /* display: flex;
+            justify-content: center; */
+            /* display: grid;
+            place-items: center; */
+
+
+        }
+
+        .inner{
+            height: 200px;
+            width: 200px;
+            background: green;
+            /* margin: auto; */
+            /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%); */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="inner"> </div>
+    </div>
+
+    <div class="row">
+        <div> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At maiores provident hic eum doloremque recusandae reiciendis eligendi facere, nisi nihil delectus, nesciunt, voluptatibus corrupti odio molestiae ex. Quas, laudantium iusto.</div>
+
+        <div class="col text">
+            <div class="x"> part1</div>
+            <div class="x"> part1</div>
+            <div class="x"> part1</div>
+            <div class="x"> part1</div>
+    
+            <div class="x y">
+                <div class="up">upper </div>
+                <div class="down">down </div>
+            </div>
+    
+            <div class="x"> part1</div>
+            <div class="x"> part1</div>
+            <div class="x"> part1</div>
+            
+    
+        </div>
+        <div class="col">col1 </div>
+        <div class="col">col2 </div>
+    </div>
+
+   
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 100px;
+            width: 100px;
+            background: lightblue;
+            border-radius: 50%;
+            margin: 150px auto;
+           
+        }
+        .effect1{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background: red;
+            opacity: 1; 
+            animation: playbtn 1s linear infinite;
+           
+         }
+         /* .effect1:hover{
+            transform: scale(1.5);
+            opacity: 0; */
+     @keyframes playbtn
+     {
+       from{ transform: scale(1); opacity: 1;}
+       to{ transform: scale(1.5); opacity: 0;}
+     }
+          
+         
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="effect1"> </div>
+    </div>
+</body>
+</html>

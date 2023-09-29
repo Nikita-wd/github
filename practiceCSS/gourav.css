@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nikita{
+    background: lightblue;
+    /* display: flex; */
+}
+ul{
+    /* display: inline; */
+    /* display: flex; */
+}

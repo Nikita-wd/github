@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .main{
+        background: lightblue;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 100px auto;
+        position: relative;
+       
+        /* animation: card 1s linear infinite; */
+
+       }
+
+       .main::before{
+        background: rebeccapurple;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        animation: card  1s linear infinite;
+       }
+      .main::before{
+        content: "";
+        background: lightcoral;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        animation: card  1s linear infinite;
+      }
+      .main::after{
+        content: "";
+        background: lightgreen;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        animation: card  1s linear infinite;
+        /* top: 40px;
+        left: 30px; */
+      }
+
+      .main::after{
+        content: "";
+        background: lightslategray;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        animation: card  1s linear infinite;
+      }
+
+      @keyframes card{
+        100%{
+            transform: scale(1.5);opacity: 0;
+        }
+      }
+
+     .main1{
+        background: lightblue;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 100px auto;
+        
+     }
+     .ni{
+        background: lightgreen;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        animation: card  1s linear infinite;
+        
+     }
+     .ni1{
+        background:lightcoral ;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        animation: card  1s linear infinite;
+        
+     }
+
+     .ki{
+        background: rgba(0, 255, 0, 0.087) ;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        animation: card  1s linear infinite;
+     }
+
+     @keyframes card{
+        100%{
+            transform: scale(1.5);opacity: 0;
+        }
+     }
+       
+
+       
+    
+
+      
+      
+     
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nikita"> </div>
+    </div>
+
+
+    <div class="main1">
+       <div class="ni">
+           <div class="ni1">
+               <div class="ki">
+
+               </div>
+           </div>
+       </div>
+    </div>
+</body>
+</html>

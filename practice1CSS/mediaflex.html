@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+     .row{
+        height: auto;
+        /* height: 100px; */
+        width: 100%;
+        background: lightblue;
+        display: flex;
+        /* flex-wrap: nowrap; */
+        flex-wrap: wrap;
+     }
+
+     .row .col{
+         border: 2px solid;
+         width: 200px;
+         padding: 20px;
+         height: 300px;
+     }
+
+     @media (max-width:1000px) {
+        .row .col{ width: 50%;}
+     }
+
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col col1"> col1</div>
+        <div class="col col2"> col1</div>
+        <div class="col col3"> col1</div>
+        <div class="col col4"> col1</div>
+        <div class="col col5"> col1</div>
+        <div class="col col6"> col1</div>
+    </div>
+</body>
+</html>

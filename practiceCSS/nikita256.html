@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            background: black;
+            height: 30px;
+            display: flex   ;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+
+         }
+        .main .w, .s, .up, .c, .eno{
+            /* border: 1px solid; */
+            width: 17.66%;
+            border-right: 1px solid;
+        
+        }
+        .main i{
+            color: lightblue;
+        }
+        
+        .shoppy{
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 130px;
+           
+        }
+        .shoppy .input{
+           width: 34.33%;
+        }
+        .shoppy input{
+            height: 40px;
+            width: 79%;
+            font-size: 20px;
+            border: none;
+            
+        }
+        input:focus{
+         outline: none;
+            
+        }
+        .shoppy button{
+            height: 40px;
+            width: 40px;
+            border: none;
+            
+        }
+        .shoppy .y{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .shoppy .elite{
+            width: 29.33%;
+            font-size: 58px;
+        }
+        .shoppy span{
+            background: black;
+            height: 60px;
+            width: 60px;
+            color: white;
+            font-size: 50px;
+            padding: 0 10px;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .shoppy .share {
+            width: 35.33%;
+            line-height: 30px;
+            padding-left: 20px;
+            margin-left: 20px;
+        }
+        a{
+            /* background: lightcoral; */
+            height: 60px;
+            width: 60px;
+            position: relative;
+            display: block;
+            transform-style: preserve-3d;
+            transition: 1s;
+        }
+        .f{
+            background: lawngreen;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            backface-visibility: hidden;
+            transform: rotateX(0deg) translateZ(30px);
+          
+        }
+        .b{
+            background: lightsalmon;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            backface-visibility: hidden;
+            transform: rotateX(90deg) translateZ(30px);
+           
+        }
+        a:hover {
+             transform: rotateX(-90deg);
+        }
+        .share i{
+            color: red;
+            font-size: 30px;
+            padding: 15px 10px ;
+        }
+
+        .nav{
+            background: lightcoral;
+            /* display: inline; */
+            text-align: center;
+            line-height: 55px;
+            display: flex;
+            height: 66px;
+    
+            
+        }
+        .nav .khali, .home, .about, .men, .women, .short, .contact{
+            /* border: 1px solid; */
+            width: 10.66%;
+            font-weight: bold;
+            font-size: 20px;
+
+            
+        }
+        .nav .box{
+            background: blueviolet;
+            height: 66px;
+            width: 200px;
+            margin-left: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav .box1{
+            background: lightgreen;
+            height: 40px;
+            width: 60px;
+            
+           
+        }
+        .box i{
+            font-size: 30px;
+        }
+         .home1{
+            background: lightskyblue;
+            height: 10px;
+            width: 110px;
+            transition: 1s;
+            opacity: 1;
+         }
+         .home:hover .home1{
+            width: 50px;
+            opacity: 0;
+            /* transition: 1s; */
+         }
+         .about1{
+            background: lightskyblue;
+            height: 10px;
+            width: 0px;
+            transition: 1s;
+            /* opacity: 0; */
+         }
+         .about:hover .about1{
+            /* width: 0; */
+            width: 110px;
+            opacity: 1;
+         }
+         .men1{
+            background: lightskyblue;
+            height: 10px;
+            width: 0px;
+            transition: 1s;
+            /* opacity: 0; */
+         }
+         .men:hover .men1{
+            /* width: 0; */
+            width: 110px;
+            opacity: 1;
+         }
+         .women1{
+            background: lightskyblue;
+            height: 10px;
+            width: 0px;
+            transition: 1s;
+            /* opacity: 0; */
+         }
+         .women:hover .women1{
+            /* width: 0; */
+            width: 110px;
+            opacity: 1;
+         }
+         .short1{
+            background: lightskyblue;
+            height: 10px;
+            width: 0px;
+            transition: 1s;
+            /* opacity: 0; */
+         }
+         .short:hover .short1{
+            /* width: 0; */
+            width: 110px;
+            opacity: 1;
+         }
+         .contact1{
+            background: lightskyblue;
+            height: 10px;
+            width: 0px;
+            transition: 1s;
+            /* opacity: 0; */
+         }
+         .contact:hover .contact1{
+            /* width: 0; */
+            width: 110px;
+            opacity: 1;
+         }
+
+        .img{
+            background: url(shopping-4974313_1280.jpg);
+            height: 500px;
+            width: 100%;
+            background-size: 100% 100%;
+            background-size: cover;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            word-spacing: 10px;
+            letter-spacing: 10px;
+        }
+        .img1 p span{
+              color: blue;
+        }
+        .img1 .smoll{
+            font-size: 20px;
+            text-align: center;
+            word-spacing: 5px;
+            letter-spacing: 10px;
+            /* background: lightblue; */
+        }
+         .button1{
+            height: 40px;
+            width: 26%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 250px;
+            margin-top: 20px;
+            background: lightblue;
+            border: none;
+            outline: 2px solid transparent;
+            /* outline-offset: 0px; */
+            transition: 0.5s;
+            font-size: 15px;
+            font-weight: bold;
+
+
+        }
+        .button1:hover{
+           outline: 2px solid lightblue;
+           outline-offset: 5px;
+        }
+
+        .nikita{
+          /* background: lightblue; */
+          width: 1300px;
+          height: 400px;
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          /* padding: 30px 30px; */
+
+            
+        }
+         .nikita .right{
+           background: url(pockect\ 1.jpg);
+           width: 600px;
+           height: 400px;
+           background-size: 100% 100%;
+           /* background-size: cover; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           background-position: -20px 0px;
+           transition: 0.5s;
+
+        }
+        .nikita .right1{
+          background: url(pockect2.jpg);
+          width: 600px;
+          height: 400px;
+          background-size: 100% 100%;
+          margin-left: 60px;
+          display: flex;
+           justify-content: center;
+           align-items: center;
+           background-position: -20px 0px;
+           transition: 0.5s;
+         
+        }
+
+        .nikita .right2{
+          border: 2px solid white;
+          width: 500px;
+          height: 300px;
+          margin-top: 50px;
+          transition: 0.5s;
+          text-align: center;
+          color: white;
+          line-height: 40px;
+          font-size: 40px;
+          word-spacing: 15px;
+          letter-spacing: 8px;
+          
+        }
+        .right2 .fall{
+            margin-top: 80px;
+            margin-left: 20px;
+            
+        }
+        .right2 .new{
+            /* color: white; */
+            font-size: 20px;
+
+        }
+
+        .nikita .right3{
+          border: 2px solid white;
+          width: 500px;
+          height: 300px;
+          margin-top: 50px;
+          transition: 0.5s;
+          color: white;
+          line-height: 40px;
+          font-size: 40px;
+          word-spacing: 15px;
+          letter-spacing: 8px;
+        }
+        .right3 .fall1{
+            margin-top: 80px;
+            margin-left: 120px;
+        }
+        .right3 .nwe1{
+            font-size: 20px;
+            margin-left: 200px;
+
+         }
+
+        .right:hover {
+            background-position: 20px 0px;
+            /* margin-top: 0; */
+        }
+        .right2:hover{
+            margin-top: 0;
+            margin-left: 5;
+            margin-right: 5;
+            margin-bottom: 0;
+        }
+        .right1:hover{
+            background-position: 20px 0px;
+        }
+        .right3:hover{
+            margin-top: 0;
+            margin-left: 5;
+            margin-right: 5;
+            margin-bottom: 0;
+        }
+
+        .save{
+            background: white;
+            height: 450px;
+            width: 1300px;
+            display: flex;
+        }
+        .save .save1{
+         background: url(mid.jpg);
+         background-size: 100% 100%;
+         background-size: cover;
+         height: 450px;
+         width: 700px;
+        }
+        .save .save2{
+         background: lightgreen;
+         height: 450px;
+         width: 600px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+        }
+        .save .save3{
+         background: white;
+         height: 400px;
+         width: 550px;
+         margin-top: 30px;
+         margin-left: -50px;
+        text-align: center;
+         line-height: 30px;
+        }
+         .save .save3 .sa1{
+           margin-top: 40px;
+           margin-left: -30px;
+           font-weight: bold;
+           font-size: 30px;
+        }
+        .five5{
+            color: red;
+        }
+
+        .save .save3 .sa2{
+          margin-left: -30px;
+        }
+        .save .save3 .commit{
+            margin-left: -32px;
+        }
+
+        .save3 .back1{
+           /* background: white; */
+           height: 200px;
+           width: 500px;
+           margin-left: 30px;
+           margin-top: 20px;
+           /* display: inline; */
+           display: flex;
+           justify-content: center;
+           line-height:40px;
+           align-items: center;
+           
+
+        }
+         .back1 .custom, .event, .award{
+            /* border: 2px solid; */
+            /* display: inline; */
+            width: 37.33%;
+            font-size: 23px;
+         } 
+         .back1 .custom, .event, .award{
+            font-size: 23px;
+            /* color: aquamarine; */
+         }
+          .award i{
+            color: lightblue;
+            font-size: 40px;
+         }
+         .custom i{
+            color: lightblue;
+            font-size: 40px;
+         }
+         .event i{
+            color: lightblue;
+            font-size: 40px;
+         }
+         
+
+         .back1 .favi, .favi2, .favi3{
+            font-size: 30px;
+         }
+         .bacsale{
+            /* background: lightblue; */
+            height: 650px;
+            width: 1300px;
+            display: flex;
+            /* border: 2px solid; */
+            position: relative;
+
+
+         }
+         .bacsale .bacsale1{
+           background: url(bb1.jpg);
+           background-size: 100% 100%;
+           background-size: cover;
+           height: 730px;
+           width: 500px;
+           /* border: 2px solid; */
+           background-position: -20px 0 ;
+           margin-left: 20px;
+           transition: 1s;
+           
+         }
+         .bacsale .bacsale2{
+            background: url(bottom3.jpg);
+            background-size: 100% 100%;
+            background-size: cover;
+            background-position: -20px 0 ;
+           height: 350px;
+           width: 700px;
+           /* border: 2px solid; */
+           /* display: inline; */
+           position: absolute;
+           top: 0px;
+           left: 550px;
+           background-position: -20px 0 ;
+           transition: 1s;
+         }
+         
+
+         .bacsale .bacsale3{
+            background: url(bottom4.jpg);
+            background-size: 100% 100%;
+            background-size: cover;
+           height: 350px;
+           width: 700px;
+           border: 2px solid;
+           position: absolute;
+           top: 380px;
+           left: 550px;
+           background-position: -20px 0 ;
+           transition: 1s;
+         }
+          .bacsale .bacsale1:hover{
+            background-position: 20px 0 ;
+
+         }
+         .bacsale .bacsale2:hover{
+            background-position: 20px 0 ;
+         }
+         .bacsale .bacsale3:hover{
+            background-position: 20px 0 ;
+         }
+
+
+         .bacsale1 .backface{
+              /* background: lightblue; */
+              border: 2px solid;
+              color: white;
+              height: 650px;
+              width: 400px;
+              margin: 60px 0 0 30px;
+              margin-top: 30px;
+              margin-left: 40px;
+              transition: 1s;
+              /* text-align: end;
+              line-height: 40px; */
+         }
+         .backface:hover{
+           margin-top: 0;
+           margin-left: 0;
+           margin-right: 0;
+           margin-bottom: 0;
+         }
+
+         .bacsale2 .santosh{
+           /* background: lightpink; */
+           color: white;
+           border: 2px solid;
+           height: 280px;
+           width: 600px;
+           margin: 30px 0 0 50px;
+           margin-top: 30px;
+           margin-left: 40px;
+           transition: 1s;
+         }
+         .santosh:hover{
+            margin-top: 0;
+           margin-left: 0;
+           margin-right: 0;
+           margin-bottom: 0;
+         }
+         .bacsale3 .santosh1{
+            /* background: lightslategrey; */
+            border: 2px solid;
+            color: white;
+           height: 280px;
+           width: 600px;
+           margin: 35px 0 0 50px;
+           margin-top: 30px;
+           margin-left: 40px;
+           transition: 1s;
+         }
+         .bacsale3 .santosh1:hover .{
+            margin-top: 0;
+           margin-left: 0;
+           margin-right: 0;
+           margin-bottom: 0;
+         }
+         .backface .up{
+           text-align: end;
+           margin-top: 100px;
+           margin-left: 300px;
+           color: red;
+           font-size: 40px;
+           opacity: 1;
+           
+         }
+         .santosh .up1{
+          text-align: end;
+          margin-top: 50px;
+          font-size: 40px;
+          margin-right: 40px;
+          color: red;
+         }
+         .santosh1 .up3{
+            text-align: end;
+            color: red;
+            margin-top: 50px;
+          font-size: 40px;
+          margin-right: 40px;
+         }
+         .span:hover {
+            opacity: 0;
+         }
+         /* .up1:hover .span1{
+          opacity: 0;
+         } */
+          
+         .op{
+            background: url(bb1.jpg);
+            height: 400px;
+            width: 600px;
+            margin-left: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        .op .opp{
+            background: rgba(0, 0, 0,0.23);
+            height: 400px;
+            width: 600px;
+            position: absolute;
+            top: 400px;
+            left: -600px;
+            transition: 1s;
+        }
+        .op .oppp{
+            background: rgba(0, 0, 0,0.23);
+            height:400px ;
+            width:600px ;
+            position: absolute;
+            top: -400px;
+            left: 600px;
+            transition: 1s;
+            opacity: 1;
+
+        }
+        .op:hover .oppp{
+            opacity: 0;
+            top: 0;
+            left: 0;
+        }
+        .op:hover .opp{
+            top: 0;
+            left: 0;
+        }
+        .saleniki{
+            display: flex;
+        }
+        .oy{
+            background: url(bot_2.jpg);
+            height: 400px;
+            width: 600px;
+            margin-left: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        .oy .opppp{
+            background: rgba(0, 0, 0,0.23);
+            height: 400px;
+            width: 600px;
+            position: absolute;
+            top: 400px;
+            left: -600px;
+            transition: 1s;
+        }
+        .oy .oppppp{
+            background: rgba(0, 0, 0,0.23);
+            height:400px ;
+            width:600px ;
+            position: absolute;
+            top: -400px;
+            left: 600px;
+            transition: 1s;
+            opacity: 1;
+        }
+        .oy:hover .opppp{
+            opacity: 0;
+            top: 0;
+            left: 0;
+        }
+
+        .oy:hover .oppppp{
+            top: 0;
+            left: 0;
+        }
+
+        .newarrivals{
+           text-align: center;
+           font-size: 70px;
+           word-spacing: 30px;
+           letter-spacing: 10px;
+           color: red;
+        }
+
+        .yogita{
+         position: relative;
+        }
+        .yogita1{
+           height: 200px;
+           width: 200px;
+           position: absolute;
+           top: 0;
+           left: 0;
+        }
+        .yogita2{
+           height: 200px;
+           width: 200px;
+           position: absolute;
+           top: 0;
+           left: 0;
+        }
+
+        
+
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="w"> </div>
+        <div class="s"> 
+            <i class="fa-solid fa-user"></i>
+             &nbsp; &nbsp; Sing in </div>
+        <div class="up">
+            <i class="fa-solid fa-unlock"></i>
+            &nbsp; &nbsp; Sing up </div>
+        <div class="c"> <i class="fa-solid fa-phone"></i>
+            &nbsp; &nbsp; call no :1234567 </div>
+            
+        <div class="eno"><i class="fa-solid fa-envelope"></i>
+            &nbsp; &nbsp; info@gamil,com</div>
+        <div class="p"> </div>
+     </div>
+
+     <div class="shoppy">
+         <div class="input y"> <input type="text">
+            <button class="button y"> </button>
+        </div>
+         <div class="elite y"> <span> E </span> elite shoppy </div>
+         <div class="share y"> Share on: 
+            <a href="">
+                <div class="f"> <i class="fa-brands fa-linkedin"></i></div>
+                <div class="b"> <i class="fa-brands fa-linkedin"></i> </div>
+
+            </a>
+            <a href="">
+                <div class="f"> <i class="fa-brands fa-instagram"></i></div>
+                <div class="b"> <i class="fa-brands fa-instagram"></i></div>
+
+            </a>
+            <a href="">
+                <div class="f"> <i class="fa-brands fa-twitter"></i></div>
+                <div class="b"> <i class="fa-brands fa-twitter"></i></div>
+
+            </a>
+            <a href="">
+                <div class="f"> <i class="fa-brands fa-twitter"></i></div>
+                <div class="b"> <i class="fa-brands fa-twitter"></i></div>
+
+            </a>
+         </div>
+     </div>
+
+     <div class="nav">
+        <div class="khali"> </div>
+        
+        <div class="home"> Home
+            <div class="home1"> </div>
+        </div>
+        <div class="about"> about us
+            <div class="about1"> </div>
+        </div>
+        <div class="men"> men.were
+            <div class="men1"> </div>
+        </div>
+        <div class="women"> women wear
+            <div class="women1"> </div>
+        </div>
+        <div class="short"> short codes
+            <div class="short1"> </div>
+        </div>
+        <div class="contact"> contact 
+            <div class="contact1"> </div>
+        </div>
+        <div class="box"> 
+            <div class="box1"><i class="fa-solid fa-cart-plus"></i> </div>
+        </div>
+     </div>
+
+     <div class="img">
+           <div class="img1">
+            <p> THE BIGGEST <span>SALE </span> </p>
+            <p class="smoll"> New Arrivals On  Sale</p>
+            <button class="button1"> Shop Now</button>
+           </div>
+     </div>
+<br><br><br>
+     <div class="nikita">
+          <div class="right">
+            <div class="right2"> 
+                <p class="fall"> FALL AHEAD</p>
+                <p class="new" > New Arrivals</p>
+            </div>
+          </div>
+          <div class="right1"> 
+            <div class="right3">
+                 <p class="fall1">FALL AHEAD </p>
+                 <p class="nwe1"> New Arrivals</p>
+             </div>
+          </div>
+        
+         </div>
+        <br>
+        <br>
+
+        <div class="save">
+            <div class="save1"> </div>
+            <div class="save2"> 
+                <div class="save3">
+                    <p class="sa1" > SAVE UP TO <span class="five5">50%  </span> IN THIS WEEK</p>
+                    <p class="sa2">  <span class="commit"> Suspendisse varius turpis efficitur erat laoreet Mauris sollicitudin </span> <br>scelerisque  commodo.Nunc dapibus mauris sed metus finibus posuere
+                        <br>
+                        sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus this 
+                    </p>
+
+                    <div class="back1">
+                        <div class="custom"> <i class="fa-solid fa-user"></i>
+                            <br>Customer <p class="favi"> 457</p> </div>
+                        <div class="event"> <i class="fa-solid fa-shop"></i><br> Events <p class="favi2"> 654</p>
+                         </div>
+                        <div class="award"><i class="fa-solid fa-shield-halved"></i> <br>Awards <p class="favi3"> 532</p> </div>
+                    </div>
+                         
+                </div>
+                
+            </div>
+           
+            
+        </div>
+        <br><br><br>
+        <div class="bacsale">
+            <div class="bacsale1"> <div class="backface"> <p class="up"> Sale <span class="span"> up to 50%</span> </p> </div> </div>
+            <div class="bacsale2"> <div class="santosh"><p class="up1"> Sale <br> <span class="span1"> up to 50%</span></p></div> </div>
+            <div class="bacsale3"> <div class="santosh1"> <p class="up3"> Sale <br> <span class="span2"> up to 50%</span></p> </div></div>
+        </div>
+        <br><br><br><br><br><br><br>
+
+        <div class="saleniki"> 
+            <div class="op"> 
+                <div class="opp"> </div>
+                <div class="oppp"> </div>
+            </div>
+            <div class="oy"> 
+                <div class="opppp"> </div>
+                <div class="oppppp"> </div>
+            </div>
+        </div>
+           
+     <br><br><br>
+
+     <div class="newarrivals"> New Arrivals </div>
+      <div class="yogita">
+        <div> New </div>
+        <div class="yogita1"> <img src="pahad1.jpg" alt="" width="100%" height="100%"></div>
+        <div class="yogita2"><img src="pockect 1.jpg" alt="" width="100%" height="100%"> </div>
+        <div class="yogita3"> </div>
+      </div>
+
+    
+     <br><br><br><br>
+</body>
+</html>

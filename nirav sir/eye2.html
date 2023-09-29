@@ -1,0 +1,133 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 200px;
+            width: 200px;
+            background: lightseagreen;
+            margin: 150px auto;
+            border-radius: 20%  ;
+            
+        }
+        .eyebro
+        {
+            height: 20%;
+            display: flex;
+            gap: 10px;
+            transform: translate( 13px , 30px);
+            
+            
+        }
+        .eyebro1,.eyebro2{
+            height: 18%;
+            width: 80px;
+            background: black;
+            border: 2px solid;
+            transform: translate(0,0);
+            animation: eyebro 0.8s linear infinite alternate;
+            
+        }
+        
+         .eye{
+            /* background: gold; */
+         }
+    
+        .oneeye{
+            height: 80px;
+            width: 50px;
+            border-radius: 50%;
+            border: 5px solid;
+            background: rgb(253, 251, 251);
+            transform: translate(20px, 10px);
+            overflow: hidden;
+            
+        }
+        .seceye{ height: 80px;
+            width: 50px;
+            border-radius: 50%;
+            border: 5px solid;
+            background: white;
+            transform: translate(120px, -77px);
+            overflow: hidden;
+            
+
+        }
+        .palak{
+            height:0px;
+            width: 51px;
+            background: black;
+            animation: palak 0.8s linear infinite alternate;
+
+        }
+        .dot
+        {
+            height: 20px;
+            width: 20px;
+            border: 5px solid;
+            top: 50%;
+            left: 50%;
+            /* transform: translate(50%,50%); */
+            position: absolute;
+            border-radius: 50%;
+            background: black;
+            animation: dot 0.8s linear infinite alternate;
+        }
+        @keyframes dot{
+            from{ top: 50%;
+            left: 50%;
+            transform: translate(-100%,-50%);}
+
+            to{
+                /* top: 30%;
+                left: 30%; */
+                transform: translate(30%,-50%);
+            }
+        }
+        @keyframes eyebro{
+            from{
+                transform: translate(0,0);
+            }
+            to{
+                transform: translate(0,8px);
+            }
+        }
+        @keyframes palak{
+            from{height: 0;}
+            to{
+              height: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+       
+       
+        <div class="eyebro">
+           
+            <div class="eyebro1"></div>
+            <div class="eyebro2"></div>
+        </div>
+         
+        
+        
+        <div class="eye">
+            <div class="oneeye">
+                <div class="palak"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="seceye">
+                <div class="dot"></div>
+                <div class="palak"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> display in css </title>
+    <style>
+        body{
+            height: 100vh;
+            background: black;
+             display: flex; 
+             justify-content: center;
+             align-items: center;
+        }
+        .w{
+            height: 400px;
+            width: 250px;
+            background: lightblue;
+            /* margin: 100px auto; */
+            position: relative;
+             overflow: hidden;  
+        }
+        .y{
+            height: 390px;
+            width: 240px;
+            background: lightcoral;
+            /* padding-left: 20px; */
+            /* padding-top: 20px; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        
+            transform: translate(-50%, -50%);
+        }
+        .z{
+             height: 600px;
+             width: 400px;
+             background: linear-gradient(red,blue,green,yellow,purple,white,red,green);
+              position: absolute;
+             top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%) rotate(0deg);
+            transition: 0.5s;
+             
+            /* opacity: 0; */
+
+        }
+        .w:hover .z{
+             transform: translate(-50%,-50%) rotate(360deg);
+             /* transition: 1s; */
+             /* opacity: 0;   */
+        }
+    </style>
+</head>
+<body>
+    <div class="w">
+        <div class="z">
+
+        </div>
+        <div class="y">
+        
+        
+        </div>
+    </div>
+</body>
+</html>

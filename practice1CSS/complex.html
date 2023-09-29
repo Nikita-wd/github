@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+
+        .row{
+            background: lightblue;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px auto;
+            padding: 20px;
+        }
+
+        .col{
+            border: 2px solid;
+            overflow: auto;
+        }
+
+        .test{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 5fr 5fr 5fr 5fr;
+            /* border: 2px solid red; */
+        }
+        .y{
+            display: grid;
+        }
+
+        .x, .up,.down{
+            border: 3px solid;
+        }
+
+        .main{
+            background: gray;
+            position: relative;
+            display: grid;
+            align-items: center;
+        }
+
+        .inner{
+            height: 200px;
+            width: 200px;
+
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+         <div class="inner"> div</div>
+         
+    </div>
+
+    <div class="row"> 
+    <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae possimus eaque quos at, impedit molestias assumenda, quibusdam doloremque recusandae dolor deleniti ab odio praesentium architecto quod quo nulla nisi. </div>
+
+
+
+    <div class="col test">
+        <div class="x">prat1 </div>
+        <div class="x">prat1 </div>
+        <div class="x">prat1 </div>
+        <div class="x">prat1 </div>
+
+        <div class="x y" >
+            <div class="up">upper </div>
+            <div class="down">down</div>
+         </div>
+        <div class="x">prat1 </div>
+        <div class="x">prat1 </div>
+        <div class="x">prat1 </div>
+
+        
+   </div>
+
+   <div class="col"> col1</div>
+   <div class="col">col2 </div>
+   
+
+</div>
+
+
+</body>
+</html>

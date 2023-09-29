@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter {
+            color: red;
+            
+        }
+        p::first-line{
+            background: lightblue;
+        }
+        h2{
+            font-size: 50px;
+        }
+        h2::before
+        {
+            content: "hello ";
+        }
+        h2::after{
+            content: "pata nahi...";
+        }
+        h2:hover{
+            color: brown;
+        }
+        h4::before{
+            content: url(pahad1.jpg);
+        }
+        ::selection{
+            color: white;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h4>
+        he &nbsp; &nbsp; &nbsp; &nbsp;llo
+    </h4>  
+    <br>
+    <h2> Dharmesh </h2>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laborum vel, 
+        corporis unde, quod voluptatibus eos sequi, iusto eveniet cum sint voluptas fuga 
+        voluptatum reiciendis at dolorem tempora fugit! Quia.
+    </p>
+
+    <h1> hello </h1>
+    <h1> hello </h1>
+    <h1> hello </h1>
+    <h1> hello </h1>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .banner{
+            height: 300px;
+            width: 500px ;
+            background: url(pockect\ 1.jpg);
+            background-position: -40px,0;
+            margin: 100px auto;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            transition: 0.8s;
+            /* justify-content: center; */
+        }
+        .banner:hover
+        {
+           background-position: 3px 0; 
+        }
+        .effect{
+            height: 200px;
+            width: 400px;
+             /* background: chocolate;  */
+            border: 3px solid #fff;
+            margin-top: -50px;
+            word-spacing: 9px;
+            padding: 10px 0 0 110px ;
+            letter-spacing: 8px;
+            color: #fff;
+            transition: 0.7s;
+            opacity: 0;
+            font-size: 20px;
+    
+            
+    
+        }
+        .u{
+            font-size: 80%;
+        }
+        .o{
+             padding: 50px 0 0 50px;
+        }
+        .o::first-letter {
+            color: red; 
+        }
+        .banner:hover .effect{
+            opacity: 5;
+            margin-top: 30px;
+        }
+        
+ </style>
+</head>
+<body>
+   <div class="banner ">
+    <div class="effect ">
+         <p class="o"> FALL AHEAD  </p>
+        <p class="u"> NEW ARRIVALS</p> 
+        
+    </div>
+    </div>
+</body>
+</html>

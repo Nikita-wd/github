@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> float in clear  </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <style>
+        *{
+            box-sizing: border-box ;
+
+        }
+
+        body{
+            font-family: 'Edu SA Beginner', cursive;
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple; 
+            margin: auto;
+
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 17px 4px;
+            padding: 11px 9px;
+            background-color: rgb(218, 187, 187);
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+             
+         }
+        #computer{
+            float: left;
+            width: 48%;
+
+        }
+        #stationary{
+            clear: both;
+            width: 97%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="fruits" class="item ">
+            <h3> Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet,
+             consectetur adipisicing elit. Aspernatur commodi doloribus assumenda quia officiis 
+             eum doloremque provident rem placeat! Id sapiente explicabo repellat possimus, 
+             quasi saepe quaerat dolores et eaque. </p>
+        </div>
+        <div id="computer" class="item">
+            <h3> Computer </h3>
+            <p id="computerpara" class="para "> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consequuntur id tempore, eaque laborum modi ipsam aperiam nostrum, fuga, 
+                nobis nisi quaerat repellendus deleniti nam quam quidem iure? Veritatis, ipsa? Repellendus.</p>
+        </div>
+        <div id="stationary" class="item"> 
+            <h3> Stationary </h3>
+            <p id="stationarypara" class="para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Inventore voluptas, reprehenderit cupiditate sapiente beatae voluptates.
+                 Sed eligendi sunt inventore nam? Aliquid voluptatum eos assumenda exercitationem esse, 
+                 quidem atque sunt possimus. </p>
+        </div>
+    </div>
+</body>
+</html>

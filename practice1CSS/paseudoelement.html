@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+           color: red;
+        }
+        p::first-line{
+          background: lightcoral;
+        }
+        h2{
+            font-size: 50px;
+        }
+        h2::before{
+            content: " pata nahi";
+        }
+        h2::after{
+           content: "nikta....." ;
+        }
+        h2:hover{
+            color: red;
+        }
+
+        ::selection{
+            background: blue;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h2> Nikita</h2>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam iusto porro asperiores cumque dolor saepe, adipisci nemo ducimus dolorem aliquid modi amet quia placeat enim dolore quod assumenda nihil!</p>
+
+    <h1> Nikita </h1>
+    <h1> Nikita </h1>
+    <h1> Nikita </h1>
+    <h1> Nikita </h1>
+    
+</body>
+</html>

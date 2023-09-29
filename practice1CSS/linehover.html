@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nikita{
+            background: lightblue;
+            /* font-size: 100px; */
+            /* margin: 100px auto; */
+            margin-top: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+
+
+        }
+        .nikita::before{
+           content: "";
+           background: black;
+           height: 20px;
+           width: 150px;
+           /* border: 3px solid lightblue; */
+           position: absolute;
+           top: 48px;
+           left: 520px;
+           transition: 1s;
+           opacity: 0;
+
+
+        }
+        .nikita::after{
+            content: "";
+           background: black;
+           height: 20px;
+           width: 160px;
+           position: absolute;
+           top: 48px;
+           right: 590px;
+           transition: 1s;
+           opacity: 0;
+
+        }
+
+        .nikita:hover::after {
+            right: 500px;
+            opacity: 1;
+            
+        }
+        .nikita:hover::before{
+            left: 500px;
+            opacity: 1;
+        }
+        
+
+        
+        </style>
+</head>
+<body>
+    <div class="nikita"> 
+        Nikita
+    </div>
+</body>
+</html>

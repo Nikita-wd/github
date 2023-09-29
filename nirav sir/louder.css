@@ -1,0 +1,39 @@
+body{
+    background: black;
+}
+
+.lol{
+    height: 290px;
+    width: 290px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    background: lightsalmon;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-animation: circle 1s linear infinite;
+    animation: circle 1s linear infinite ;
+    
+    }
+
+@-webkit-keyframes circle{
+    0%{ transform: rotate(0deg) translate( 150px, 0px);}
+
+    100%{ transform: rotate(360deg) translate(150px);}
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: lightcoral;
+    /* width: 200px;
+    height: 200px; */
+}
+
+.navbar ul{
+  /* display: inline; */
+  text-align: center;
+  word-spacing: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar li{
+    display: inline;
+    text-align: ;
+}
+
+.main .
+

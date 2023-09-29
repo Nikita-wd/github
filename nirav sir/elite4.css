@@ -1,0 +1,85 @@
+        
+        input{
+            height: 50px;
+            width: 300px;
+            background: lightgrey;
+            outline: none;
+        }
+        
+        
+        button{
+            background: lightblue;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 0;
+            left: 330px;
+            border: none;
+        }
+        .nikita .priya{
+            height: 50px;
+            width: 400px;
+            /* background: lightgreen; */
+            position: absolute;
+            top: 20px;
+            left: 300px;
+        }
+        .nikita .kirti{
+            height: 50px;
+            width: 450px;
+            position: absolute;
+            /* background: chocolate; */
+            top: 20px;
+            left: 600px;
+        }
+        button i{
+           font-size: 60%;
+           color: white;
+        }
+        a 
+        {
+            height: 60px;
+            width: 60px;
+            background: lightcoral;
+            display: block;
+            color:#fff;
+            /* position: relative; */
+            position: absolute;
+            top: 0;
+            left:200px;
+            transition: .5s;
+            transform-style: preserve-3d;
+
+        }
+        .f 
+        {
+            height: 60px;
+            width: 60px;
+            background: blue;
+            position: absolute;
+            top:10px;
+            left:870px;
+            backface-visibility: hidden;
+            transform: rotateX(0deg) translateZ(30px);
+        }
+        .b 
+        {
+            height: 60px;
+            width: 60px;
+            background: gray;
+            position: absolute;
+            top:10px;
+            left:780px;
+            backface-visibility: hidden;
+            transform: rotateX(90deg) translateZ(30px);
+        }
+
+        a:hover 
+        {
+            transform: rotateX(-90deg);
+        }
+
+        .icons a 
+        {
+            margin: 0 20px;
+        }

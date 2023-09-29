@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background: lightblue;
+            display: flex;
+            height: 50px;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+
+        }
+        .header i{
+            color: white;
+        }
+        .header .blank1{
+             width: 16.66%;
+             height: 50px;
+             background: transparent;
+        }
+        .header .blank2{
+            width: 16.66%;
+             height: 50px;
+             background: transparent;
+        }
+        .header .sing, .call, .info{
+            width: 16.66%;
+             height: 50px;
+             border-right: 2px solid;
+             background: transparent;
+        }
+        .header1{
+            height: 50px;
+            background: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-spacing: 10px;
+        }
+        li {
+            display: inline;
+            border-right: 2px solid;
+            padding: 14px 40px ;
+        }
+        .subheader{
+            background: gray;
+            display: flex;
+            justify-content: center;
+            padding: 60px 20px;
+            /* padding-right: 10px 0; */
+        }
+
+        .subheader .search {
+          width: 33.33%;
+
+          /* background: lightblue; */
+        }
+        .subheader .x{
+          /* border: 2px solid; */
+          display: flex;
+          justify-content: space-evenly;
+        }
+        .subheader .search input{
+            height: 40px;
+            width: 70%;
+            border: 1px solid lightblue;
+            color: rebeccapurple;
+            font-size: 20px;
+            /* padding: 20px 80px ; */
+            /* padding-left: -10px; */
+            /* padding-right: 20px; */
+        }
+        .subheader .search input:focus {
+            outline: none;
+            /* border: none; */
+        }
+        .subheader .search button{
+            background: lightgreen;
+            height: 42px;
+            width: 44px;
+            border: none;
+            /* padding: 0 10px; */
+        }
+        .subheader .i{
+            color: white;
+            font-size: 20px;
+        }
+        .subheader .logo{
+            width: 20px;
+            /* background: lightcoral; */
+            font-size: 45px;
+            font-weight: bold;
+            padding: 0px 90px;
+        }
+        .subheader .logo span{
+            background: #000;
+            color: white;
+            padding: 4px 10px;
+        }
+        .subheader .search i{
+            color: #fff;
+            font-size: 20px;
+        }
+        .subheader .logo{
+            width: 33.33%;
+            font-size: 45px;
+            font-weight: bold;
+        }
+        a{
+            width: 60px;
+            height: 60px;
+            background: lightcoral;
+            display: block;
+            color: white;
+            position: relative;
+            /* transition: 5s; */
+            transform-style: preserve-3d;
+
+        }
+        .f{
+          width: 60px;
+          height: 60px;
+          background: blue;
+         position: absolute;
+         top:0;
+         left:0;
+         backface-visibility: hidden;
+         transform: rotateX(0deg) translateZ(30px);
+        }
+        .b{
+            height: 60px;
+            width: 60px;
+            background: gray;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+            transform: rotateX(90deg) translateZ(30px);
+        }
+        a:hover 
+        {
+            transform: rotateX(-80deg);
+            transition: 1s;
+        }
+
+        .subheader .icons a 
+        {
+            margin: 0px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+       <div class="blank1">  </div>
+       <div class="sing  "> Sing in  </div>
+       <div class="call"> call:1234567 </div>
+       <div class="info"> info@exmple.com</div>
+       <div class="blank2"> </div>
+    </div>
+    <div class="header1"> 
+        <ul>
+            <li> sing in </li>
+            <li> sing in </li>
+            <li> call </li>
+            <li> info </li>
+        </ul>
+    </div>
+
+    <div class="subheader">
+        <div class="search x">
+            <input type="text">
+            <button> </button>
+
+        </div>
+        <div class="logo x">
+           <span>E</span>lite soppy 
+        </div>
+
+        <div class="icons x">
+            share on:
+            <a href="">
+                <div class="f"> front </div>
+                <div class="b"> back</div>
+            </a>
+
+            <a href="">
+                <div class="f"> front </div>
+                <div class="b"> back</div>
+            </a>
+
+            <a href="">
+                <div class="f"> front </div>
+                <div class="b"> back</div>
+            </a>
+
+            <a href="">
+                <div class="f"> front </div>
+                <div class="b"> back</div>
+            </a>
+
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

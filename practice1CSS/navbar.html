@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+       .navbar{
+         background: lightblue;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         /* text-align: center; */
+         padding: 20px ;
+          
+       }
+
+       ul {
+        margin: 0;
+        padding: 0;
+       }
+       li{
+        display: inline;
+        padding: 10px;
+        margin-right: 50px;
+        position: relative;
+        border: 3px solid red;
+        background: linear-gradient(red, green,lightblue,lightcoral);
+        /* border-radius: 50px */
+        transition: 1s;
+       }
+
+       li::after{
+        content: "";
+        height: 9px;
+        width: 0px;
+        background: lightcoral;
+        position: absolute;
+        top: 49px;
+        left: 20px;
+        transition: 1s;
+       }
+
+       li:hover::after{
+        width: 100px;
+       }
+
+       li:hover{
+          background: linear-gradient( red, green);
+          font-size: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+       <ul>
+        <li> Home </li>
+        <li> Home </li>
+        <li> Home </li>
+        <li> Home </li>
+        <li> Home </li>
+        <li> Home </li>
+        <li> Home </li>
+       </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+ .nav{
+    background: lightblue;
+    text-align: center;
+    word-spacing: 20px;
+    /* padding: 20px, 0px; */
+    padding: 30px;
+    /* color: red; */
+ }
+ a{
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+ }
+
+ li{
+    display: inline;
+    /* color: red; */
+    
+ }
+
+ span{
+    display: none;
+
+}
+.nikta{
+   background: lightcoral;
+   height: 300px;
+   width: 400px;
+   /* border-radius: 50%; */
+   /* margin-right: 20px */
+   /* justify-content: right; */
+   opacity: 0;
+}
+
+.nikta:hover{
+   opacity: 1;
+   /* top: -20px; */
+}
+
+.niki1{
+   /* background: url(pexels-photo-1435752.jpeg); */
+   background-size: 100% 100%;  
+   background-size: cover;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background: url(samundar.jpg);
+   height: 300px;
+   width: 300px;
+   /* display: none; */
+   /* display: inline; */
+   /* opacity: 0; */
+}
+
+
+
+ 
+
+ @media (max-width:500px) {
+    span{
+          display: inline;
+          /* border: 2px solid red ; */
+          /* background: lightcoral; */
+          
+    }
+    ul{
+        display: none;
+       
+    }
+ }
+
+ @media (max-width:1000px) {
+    .niki1{
+      display: inline;
+      /* display: flex; */
+    }
+ }
+    </style>
+</head>
+<body>
+    <div class="nav">
+       <span>
+        <i class="fa fa-bars"></i>
+         <div class="nikta">nikita </div>
+        </span>
+       <div class="niki1">  </div>
+
+       <ul>
+        <li><a href=""> Home</a> </li>
+        <li><a href=""> About</a> </li>
+        <li><a href=""> Service</a> </li>
+        <li><a href=""> Contact</a> </li>
+       </ul>
+    </div>
+</body>
+</html>

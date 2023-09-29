@@ -1,0 +1,31 @@
+*{
+box-sizing: border-box;
+}
+
+.nikita{
+    background: lightblue;
+    text-align: center;
+}
+
+.title{
+   background: lightcoral;
+}
+
+.info{
+  width: 530px;
+  margin: auto;
+}
+
+li{
+    display: inline;
+}
+
+img{
+    height: 100px;
+    width: 50%;
+    object-fit: contain;
+}
+.property-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

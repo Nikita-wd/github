@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .row{
+            background: lightcoral;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+        }
+       .col{
+          /* width: 200px; */
+          border: 2px solid;
+          flex-basis: 250px;
+          /* flex-grow: 7; */
+       }
+ .col img{
+    object-fit: cover;
+    object-fit: contain;
+ }
+       .bg{
+        background: url(pockect2.jpg);
+        background-size: 100% 100%;
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="row">
+       <div class="col"> <img src="pockect 1.jpg" alt="" height="100%" width="100%"> </div>
+       <div class="col bg"> col2</div>
+       <div class="col"> <img src="pockect 1.jpg" alt="" height="100%" width="100%"></div>
+       <div class="col bg">col4 </div>
+       <div class="col"><img src="pockect 1.jpg" alt="" height="100%" width="100%"> </div>
+       <div class="col bg">col2 </div>
+       <div class="col"><img src="pockect 1.jpg" alt="" height="100%" width="100%"> </div>
+       <div class="col bg"> col4</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+        
+
+        .main{
+            height: 200px;
+             width: 200px;
+             /* background: lawngreen; */
+             /* border-radius: 50% */
+            margin: 100px auto;
+            position: relative;
+            animation: kuchh 1s linear alternate-reverse infinite;
+
+             
+        }
+
+        .col2, .col3, .col4, .col5{
+            height: 50px;
+            width: 50px;
+            background: lightcoral;
+            border: 2px solid red;
+            border-radius: 50%;
+            
+        }
+
+        .col2{
+             position: absolute; 
+             top: 0px;
+             left: 0px;
+         }
+
+        .col3{ 
+            position: absolute; 
+             top: 0px;
+            right: 0px;
+        }
+
+        .col4{ 
+            position: absolute; 
+             top: 150px;
+             left: 0px;
+        }
+        .col5{
+            position: absolute; 
+             top: 150px;
+             right: 0px;
+            
+            
+        }
+
+        @keyframes kuchh{
+           from{
+              transform: rotate(0deg) scale(.1) ;
+           }
+           to{ 
+             transform: rotate(460deg) ;
+           }
+        }
+       
+    </style>
+</head>
+<body>
+    
+
+        <div class="main">
+            <div class="col2"> </div>
+            <div class="col3"> </div>
+            <div class="col4"> </div>
+            <div class="col5"> </div>
+        </div>
+        
+    
+</body>
+</html>

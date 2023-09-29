@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+            background: gray;
+            /* height: 200px; */
+            display: grid;
+            grid-template-columns: 50fr 50fr ;
+            grid-template-rows: 100px 70px 100px 100px;
+
+
+        }
+
+        .col1, .col2, .col3,.col4{
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col1"> col1</div>
+        <div class="col2"> col2</div>
+        <div class="col3"> col3</div>
+        <div class="col4 "> col4</div>
+
+        <div class="col1"> col1</div>
+        <div class="col2"> col2</div>
+        <div class="col3"> col3</div>
+        <div class="col4"> col4</div>
+        
+    </div>
+</body>
+</html>

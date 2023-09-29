@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .ex{
+        height: 200px;
+        width: 200px;
+        
+        background: lightblue;
+        margin: 300px auto;
+        position: relative;
+        overflow: hidden;
+
+
+       }
+       .ex1{
+        height: 200px;
+        width: 200px;
+        background: rgba(0,0,0,0.23);
+        /* background-color: red; */
+        position: absolute;
+        top: -200px;
+        left: 200px;
+        /* top: 200px; */
+        transition: 1s;
+        
+       }
+       .ex2{
+        height: 200px;
+        width: 200px;
+        background: rgba(0,0,0,0.23);
+        position: absolute;
+        top: 200px;
+        left: -200px;
+        transition: 1s;
+        opacity: 0;
+       }
+       .ex:hover .ex2{
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+        
+       }
+       .ex:hover .ex1{
+        top: 0;
+        left: 0;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="ex">
+        <div class="ex1">
+
+        </div>
+        <div class="ex2">
+             
+        </div>
+    </div>
+</body>
+</html>

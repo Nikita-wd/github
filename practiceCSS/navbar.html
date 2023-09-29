@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            background: coral;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        .menu{
+            display: inline;
+            margin-right: 20px;
+            position: relative;
+            
+        }
+        .submenu{
+            /* display: none; */
+            opacity: 0;
+            position: absolute;
+            top: 40px;
+            left: 4px;
+            background: gray;
+            transition: 1s;
+        }
+        li:hover .submenu{
+            /* display: block; */
+            opacity: 1;
+            top: 100%;
+            background: lightcoral;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="menu"><a href="">Home</a> </li>
+            <li class="menu"><a href="">About</a> </li>
+            <li class="menu"><a href="">service</a>
+              <ul class="submenu">
+                <li><a href="">service1</a></li>
+                <li><a href="">service2</a></li>
+                <li><a href="">service3</a></li>
+                <li><a href="">service4</a></li>
+              </ul>
+            </li>
+            <li><a href="">contact</a></li>
+        </ul>
+
+    </div>
+</body>
+</html>

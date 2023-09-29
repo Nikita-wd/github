@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.row1
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 65px;
+    /* background: darkgoldenrod; */
+    
+}
+
+.sam
+{
+    width: 250px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    margin:0 50px 50px 50px;
+    background: white;
+}
+.main
+{
+    height: 320px;
+    width: 250px;
+    position: relative;
+    margin: 0 0px 50px 0;
+}
+.N
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: lightcoral;
+    color: white;
+    padding: 3px 7px;
+}
+.sam .front
+{
+    height: 300px;
+    width: 249px;
+    /* background: lightseagreen; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.sam .back
+{
+    height: 300px;
+    width: 249px;
+    background: lightcoral;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+}
+.main:hover .front 
+{
+    transform: rotateY(0deg);
+}
+
+.main:hover .back
+{
+    transform: rotateY(180deg);
+}
+.view
+{
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    background: black;
+    color: white;
+    position: absolute;
+    top: 0px;;
+    transition: 1s;
+    opacity: 0; 
+}
+.main:hover .view
+{
+    top: 245px;
+    opacity: 1;
+    cursor:pointer;
+}
+.view:hover
+{
+    background: lightseagreen;
+}
+b
+{
+    position: relative;
+    bottom: 70px;
+    left: 0;
+    color: lightcoral;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.add
+{
+    transform: translate(-0px ,-50px );
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.o
+{
+    text-decoration: line-through;
+    color: gray;
+}
+.atc
+{
+    height: 50px;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    background: #2fdab8;
+    font-size: 15px;
+    outline: 2px solid transparent;
+    outline-offset: 0;
+    transition: 0.5s;
+    border: none;
+}
+.atc:hover
+{
+    outline: 2px solid #2fdab8;
+    outline-offset: 5px;
+}
+</style>
+</head>
+<body>
+    
+
+ <div class="row1">
+        <div class="sam">
+            <!-- START CARD -->
+            <div class="main">
+                
+                <span class="N">NEW</span>
+        
+                <div class="front">
+                    <img src="images/m1.jpg" alt="" height="100%" width="100%">
+                </div>
+                <div class="back">
+                    <img src="images/m1.jpg" alt="" height="100%" width="100%">
+                </div>
+                <div class="view"> Quick View </div>
+            </div>
+           
+            <b>Gabi Full Sleeve Sweatshirt</b>
+            <div class="add"> $99.00 <span class="o"> $150.00</span></div>
+                <button class="atc"> ADD TO CART </button>
+        </div>
+          <!-- END CARD -->
+    
+            <div class="sam">
+                <!-- START CARD -->
+                <div class="main">
+                
+                    <span class="N">NEW</span>
+            
+                    <div class="front">
+                        <img src="images/m2.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="back">
+                        <img src="images/m2.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="view"> Quick View </div>
+                </div>
+               
+                <b> Formal Blue Shirt</b>
+                <div class="add"> $45.99 <span class="o"> $69.71</span></div>
+                    <button class="atc"> ADD TO CART </button>
+            </div>
+            <!-- END CARD -->
+    
+                <div class="sam">
+                    <!-- START CARD -->
+                    <div class="main">
+                
+                        <span class="N">NEW</span>
+                
+                        <div class="front">
+                            <img src="images/m3.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="back">
+                            <img src="images/m3.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="view"> Quick View </div>
+                    </div>
+                   
+                    <b> Dark Blue Track Pants </b>
+                    <div class="add"> $88.99 <span class="o"> $89.71 </span></div>
+                        <button class="atc"> ADD TO CART </button>
+                </div>
+                <!-- END CARD -->
+    
+                <div class="sam">
+                    <!-- START CARD -->
+                    <div class="main">
+                
+                        <span class="N">NEW</span>
+                
+                        <div class="front">
+                            <img src="images/m4.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="back">
+                            <img src="images/m4.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="view"> Quick View </div>
+                    </div>
+                   
+                    <b> Round Neck Black T-Shirt </b>
+                    <div class="add"> $190.99 <span class="o"> $159.71 </span></div>
+                        <button class="atc"> ADD TO CART </button>
+                </div>
+                <!-- END CARD -->
+    
+                <div class="sam">
+                    <!-- START CARD -->
+                    <div class="main">
+                
+                        <span class="N">NEW</span>
+                
+                        <div class="front">
+                            <img src="images/m5.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="back">
+                            <img src="images/m5.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="view"> Quick View </div>
+                    </div>
+                   
+                    <b> Men's Black Jeans </b>
+                    <div class="add"> $66.99 <span class="o"> $90.71 </span></div>
+                        <button class="atc"> ADD TO CART </button>
+                </div>
+                <!-- END CARD -->
+    
+                <div class="sam">
+                    <!-- START CARD -->
+                    <div class="main">
+                
+                        <span class="N">NEW</span>
+                
+                        <div class="front">
+                            <img src="images/m7.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="back">
+                            <img src="images/m7.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="view"> Quick View </div>
+                    </div>
+                   
+                    <b> Analog Watch </b>
+                    <div class="add"> $160.99 <span class="o"> $290.71 </span></div>
+                        <button class="atc"> ADD TO CART </button>
+                </div>
+                <!-- END CARD -->
+    
+                <div class="sam">
+                    <!-- START CARD -->
+                    <div class="main">
+                
+                        <span class="N">NEW</span>
+                
+                        <div class="front">
+                            <img src="images/m6.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="back">
+                            <img src="images/m6.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="view"> Quick View </div>
+                    </div>
+                   
+                    <b> Reversible Belt </b>
+                    <div class="add"> $30.99 <span class="o"> $50.71 </span></div>
+                        <button class="atc"> ADD TO CART </button>
+                </div>
+                <!-- END CARD -->
+    
+                <div class="sam">
+                    <!-- START CARD -->
+                    <div class="main">
+                
+                        <span class="N">NEW</span>
+                
+                        <div class="front">
+                            <img src="images/m8.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="back">
+                            <img src="images/m8.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="view"> Quick View </div>
+                    </div>
+                   
+                    <b> Party Men's Blazer </b>
+                    <div class="add"> $260.99 <span class="o"> $390.71 </span></div>
+                        <button class="atc"> ADD TO CART </button>
+                </div>
+                <!-- END CARD -->
+            </div>
+</body> 
+</html>           

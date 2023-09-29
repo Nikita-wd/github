@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            height: 100px;
+            width: 100px;
+            background: gray;
+            margin: 100px auto;
+            animation: kuchbhi 2s linear infinite;
+
+        }
+
+       
+        /* @keyframes kuchbhi {
+            form{ background: gray;}
+            to{ background: red;}
+        } */
+
+        @keyframes kuchbhi{
+            0%{ background: gray;}
+            20%{ background: green;}
+            40%{ background: blue; opacity: 0.5; height: 300px; width: 300px;}
+            80%{ background: brown transparent; height: 0; width: 0; transform: rotate(360deg);}
+            90%{ background: blueviolet linear-gradient(red, blue #000,rgba(255,255,255,0.4)); border-radius: 50%;}
+            100%{ background: lawngreen;}
+        }
+    </style>
+<body>
+    <div class="x"> </div>
+</body>
+</html>

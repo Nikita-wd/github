@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background: navy;
+        }
+        /* prepare the selectors to add a stroke to */
+        .stroke-double 
+        {
+            position: relative;
+            background: transparent;
+            z-index: 0;
+            color: navy;
+            font-size: 160px;
+            font-family:Arial, Helvetica, sans-serif ;
+            text-shadow: 0 0 5px skyblue;
+            letter-spacing: 20px;
+        }
+
+        /* add a single stroke */
+        .stroke-double:before 
+        {
+            content: "NIKITA";
+            position: absolute;
+            -webkit-text-stroke: 4px white;  
+            z-index: -1;
+        }
+
+        /* add a double stroke */
+        .stroke-double:after 
+        {
+            content: "NIKITA";
+            position: absolute;
+            -webkit-text-stroke: 7px rgb(155, 235, 135);
+            z-index: -2;
+        }        
+    </style>
+</head>
+
+<body>
+    <h2 class="stroke-double"></h2>
+</body>
+
+</html>
