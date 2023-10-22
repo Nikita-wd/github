@@ -1,0 +1,58 @@
+.nikita{
+    border: 2px solid red;
+    height: 460px;
+    width: 400px;
+   
+}
+.niki{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.nikita .nikita1{
+    background: url(house_nice_2-525x328.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 300px;
+    width:400px;
+
+}
+.nikita1 .kiy{
+    padding: 20px 0px;
+    height: 50px;
+    width: 396px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.kiy .kiy1{
+    text-align: center;
+    border-radius: 20px;
+    line-height: 30px;
+    height: 30px;
+    width: 100px;
+    background: lightcoral;
+}
+.kiy .kiy2{
+    text-align: center;
+    border-radius: 20px;
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+    background: teal;
+}
+.kiy .kiy3{
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 100px;
+    background: lightgreen;
+}
+.nikita1 .feaa{
+    color: white;
+    text-align: center;
+    background: lightblue;
+    border-radius: 50PX;
+    height: 30px;
+    width:100px;
+}

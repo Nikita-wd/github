@@ -1,113 +1,196 @@
-@media (max-width:1200px) {
+@media(max-width:1200px){
+    .img-3{
+        top: 50%;
+        left: 45%;
+        
+    }
+    .img-3 img{
+        height: 5%;
+        width: 20%;
+    }
     .svg1{
-        left: 240px;
-    }
-
-    .vanilla .box{
-        width: 600px;
-    }
-
-    .vanilla .box .bc{
-        margin-left: 0px;
-    }
-
-    .vanilla .add{
-        margin-top: 50px;
-        margin-left: 200px;
-    }
-    
-    .sweety::after{
-        right: 390px;
-    }
-
-    .sweety::before{
-        left: 390px;
+       right: 20%;
     }
 
     .textbot1::before{
-        left: 250px;
+        left: 20%;
     }
-
     .textbot::after{
-        left: 830px;
-    }
-   .img-banner1{
-    width: 50%;
-    transform: translate(-100px, 0px);
-   }
-   .making .down{
-    top: 330px ;
-    left: 900px ;
-   }
-   .img-banner4{
-    width: 40%;
+        left: 72%;
+}
+.img-banner4{
+    width: 70%;
+}
+.img-banner2{
+    width:250PX;
     
-    
-   }
-   .img-banner3{
-    transform: translate(-100px, 0px);
-   }
-   .img-banner2{
-    transform: translate(-100px, 0px);
-   }
-   .Founder .border{
-    left:500px ;
-   }
-   .Founder .loganmay{
-    left: 50px;
-   }
-   .hote::before{
-    top: 40%;
-   }
-   .hote::after{
-    top: 40%;
-    left: 80%;
-   }
+}
+.hote::before{
+    left: 33%;
+}
 
-   .our .our1{
-    padding: 0px 0px;
-    margin-top: -40px;
-    margin-right: 90px;
-    width:900px ;
-   }
-
-   .our .our2{
-    margin-top: -40px;
-    height: 400px;
-   }
-
-   .our .read {
-      margin-left: 0px;
-      margin-top: -0px;
-   }
-
-   .ourstory::before{
+.hote::after{
+    right: 10%;
+}
+.our{
+    height: 500px;
+    padding: 10px 10px;
+}
+.ourstory::before{
     left: 30%;
-   }
+}
+.ourstory::after{
+    left: 62%;
+}
+.nou .w{
+    padding: 30px 50px;
+}
+.nou .where{
+    padding: 6px 50px;
+}
 
-   .ourstory::after{
-     left: 62%;
-   }
+.nou .by{
+    padding: 50px 40px;
+}
+.upcs{
+    
+}
+.upcs img{
+    margin-right: 30px;
 
 }
-@media(max-width:768px) {
-    li, .in{
-        display: block;
-    }
+.making .down{
+    width: 500px;
+    height: 0%;
+}
+}
 
+@media(max-width:992px){
     .svg1{
-        left: 80px;
+        left: 25%;
+        width: 500px;
+     }
+     .sweety::after{
+       right: 60%;
+       top: 55%;
+     }
+     .sweety::before{
+        left: 60%;
+        top: 55%;
+     }
+     .sweet1{
+       height: 800px;
+     }
+     .sweet1 .send{
+        left: 0%;
+     }
+     .Founder .border{
+        left: 40%;
+     }
+     .Founder .loganmay{
+        left: 0%;
+     }
+
+     .textbot1::before{
+        left: 15%;
+    }
+    .textbot::after{
+        left: 75%;
+        top:55%;
+}
+.making .bor{
+    padding: 0px 0px;
+}
+.img-banner3{
+    width: 250px;
+}
+.making .down{
+    width: 500px;
+    height: 0%;
+     top: 70%;
+     left: 45%;
+}
+.making .bor{
+    height: 500px;
+}
+.img-banner4{
+    width: 100%;
+}
+
+.hote::before{
+    left: 35%;
+}
+
+.hote::after{
+    right: 6%;
+}
+.ourstory::before{
+ left: 25%;
+}
+.ourstory::after{
+    left: 65%;
+}
+
+.nou .w{
+    padding: 0px 0px;
+
+}
+.nou .where{
+    padding: 0px 0px;
+}
+.nou .nou2{
+    width: 500px;
+}
+
+.upcs{
+    padding: 0px 0px;
+}
+.about2 button{
+    left: 55%;
+    top:72%;
+}
+.payment4{
+    padding: 0px 0px;
+}
+
+}
+
+@media(max-width:768px){
+    a{
+        margin-left: -10px;
+    }
+    .inline .menu{
+        padding: 0px 0px;
+        margin-right: 0px;
+        border: none;
+    }
+    .img-3{
+        top: 55%;
+        left: 43%;
+        
+    }
+    .svg1{
+        left: 15%;
+     }
+     .vanilla .left{
+        width: 100%;
+     }
+    .vanilla .right img{
+        height: 510px;
     }
 
-    .vanilla{
-        display: block;
-    }
-
-    .vanilla .box{
-        width: 100%;
-    }
-    .vanilla .box .bc{
-        width: 100%;
-    }
-  
+    .sweety::after{
+        right: 65%;
+        
+      }
+      .sweety::before{
+         left: 65%;
+         
+      }
+      body
+.hotcake{
+       font-size: 20px;
+       
+      }
+   
 }
