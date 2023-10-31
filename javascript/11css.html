@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="test">Heading</h1>
+    <i id="test1">ktutuo</i>
+    <input type="text" id="inp" value="vivek">
+    <a href="c.html" id="a">click me </a>
+    <img src="camera.jpg" alt="no img" id="img" height="200px" width="200px">
+
+    <script>
+        let h1_blkah =document.getElementById("test");
+        let i_tag=document.getElementById("test1");
+
+        h1_blkah.style.color="red";
+        h1_blkah.style.fontSize="80px";
+        h1_blkah.className="harsh";
+
+        h1_blkah.classList.add("nikita")
+
+        h1_blkah.innerHTML="magfkajs";
+
+        // x=12;
+
+        i_tag.innerHTML=h1_blkah.innerHTML
+        alert(h1_blkah.innerHTML)
+
+        console.log(h1_blkah.innerHTML)
+
+        h1_blkah.innerHTML =i_tag
+        
+
+    </script>
+</body>
+</html>

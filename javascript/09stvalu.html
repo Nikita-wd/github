@@ -6,42 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="h1">Heading 1</h1>
-
-    <p id="p1">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate quo deserunt qui ut vitae maxime cum magni, reprehenderit enim sed quod doloremque blanditiis, repellendus quia. Magni sequi labore minus?
-    </p>
-    
-    <a href="x.html" id="a">HyperLink</a>
-
-    <img src="x.jpg" alt="No Image" id="i1">
-
-    <input type="text" id="inp" value="Vivek">
+  <h1 id="h1">Heading</h1>
+  <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, totam facilis unde nulla asperiores tenetur recusandae obcaecati sapiente consequuntur nesciunt tempora dignissimos debitis eligendi reprehenderit saepe fugit eos doloremque in?</p>
+  <img src="camera.jpg" alt="" height="200px" width="200px" id="img">
+  <a href="x.html" id="a">link me</a>
+  <input type="text" value="vivek" id="inp">
 
 
-<script>
+ <script>
+    var h1_tag =document.getElementById("h1");
+    var p1_tag =document.getElementById("para");
+    var img_tag=document.getElementById("img");
+    var a_tag=document.getElementById("a");
+    var inp_tag=document.getElementById("inp");
 
-var h1_tag = document.getElementById('h1');
-var p1_tag = document.getElementById('p1');
-var a_tag = document.getElementById('a');
-var img_tag = document.getElementById('i1');
+    console.log(h1_tag)
+    console.log(p1_tag)
+    console.log(img_tag)
+    console.log(a_tag)
+    console.log(inp_tag)
 
-var inp_tag = document.getElementById('inp');
-    
-h1_tag.innerHTML = "Nilesh123";
-p1_tag.innerHTML = "This is para";
-a_tag.innerText = "LINK123";
-img_tag.alt = "Sakhsee";
-a_tag.href = "Mayur.html";
-inp_tag.value = "Nikita..!";
+   
 
-x = 12 ;
-alert(inp_tag.value)
-
-
-
-
-</script>
-
+ </script>
 </body>
 </html>

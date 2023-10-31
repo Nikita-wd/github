@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="h1" onmouseleave="GetOriginalText()" onpointerenter="ChangeText()">priyanka</h1>
+
+   <h1 id="h1" onclick="changetest()"> piyush</h1>
+   <!-- <input type="text"  id="inp" onkeypress="gettest()"> -->
+
+   <!-- <input type="text"  id="inp" onkeydown="gettest()"> -->
+
+   <input type="text" value="nikita" id="inp1" onkeyup="gettest()">
+
+   <textarea  id="testarea" ></textarea>
+
+   <script>
+    var inp_tag=document.getElementById('inp1');
+    var textarea_tag=document.getElementById('testarea');
+
+    console.log(inp_tag);
+    console.log(inp_tag.value);//hello
+
+    console.log(textarea_tag);
+
+    function gettest()
+    {
+        textarea_tag.innerHTML= inp_tag.value
+    }
+
+
+    var xyz =document.getElementById("h1");
+
+    function changetest()
+    {
+      x=12
+      xyz.innerHTML="hardik"
+
+      if(xyz.innerHTML=="piyush")
+      {
+        xyz.innerHTML="nikita"
+      }
+
+      else
+      {
+        xyz.innerHTML="bitto"
+        xyz.style.color="red"
+        xyz.style.border="2px solid green"
+      }
+    }
+
+
+    
+
+
+    function GetOriginalText()
+    {
+        xyz.innerHTML="nikita123"
+    }
+   </script>
+
+</body>
+</html>

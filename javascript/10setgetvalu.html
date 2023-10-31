@@ -7,29 +7,32 @@
 </head>
 <body>
 
-    <h1 id="h1">Heading</h1>
-
-    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laborum sint ratione libero eligendi nulla iusto nisi quam laboriosam ipsum? Excepturi aspernatur non vel consequuntur eaque quisquam sunt eum neque?</p>
-
-    <a href="x.html" id="anc">LINK</a>
-
-    <img src="x.jpg" alt="No Image" id="i1" >
-
-    <input type="text" value="TestInp123" id="inp">
-
-    <script>
-
-        var inp_tag = document.getElementById('inp');
-        var img_tag = document.getElementById('i1');
-
-        console.log(inp_tag)
-        console.log(inp_tag.value)
-        console.log(img_tag)       
-        console.log(img_tag.alt)
-
-        img_tag.alt = inp_tag.value
-
-    </script>
+   <h1 id="h1">Heading</h1>
+   <p id="para"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio soluta, molestiae expedita ea quaerat voluptatem, officia sint numquam veritatis eius repellendus ratione voluptate beatae. Similique itaque possimus incidunt reiciendis maiores?</p>
     
+   <a href="x.html" id="a">HyperLink</a>
+
+   <img src="camera.jpg" alt="no Image" id="il" height="200px" width="200px">
+
+   <input type="text" value="vivek" id="inp">
+
+   <script>
+    var h1_tag= document.getElementById("h1");
+    var p1_tag=document.getElementById("para");
+    var a_tag=document.getElementById("a");
+    var img_tag=document.getElementById("il");
+    var inp_tag=document.getElementById("inp");
+
+    h1_tag.innerHTML="nikita";
+    p1_tag.innerHTML="This is paragraph";
+    a_tag.innerText="nikitalink123";
+    img_tag.alt="sakshi";
+    a_tag.href= "nikita.html";
+    inp_tag.value="nikita...!";
+
+    x=12;
+    alert(inp_tag.value)
+
+   </script>
 </body>
 </html>
