@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    img {
+      height: 400px;
+      width: 400px;
+    }
+  </style>
+  <body>
+    <img id="myImg" src="stcok1.jpg" />
+    <button id="myButton">Change Image</button>
+
+    <script>
+      const myImg = document.getElementById("myImg");
+      const myButton = document.getElementById("myButton");
+
+      let isFirstImage = true;
+
+      myButton.addEventListener("click", function () {
+        if (isFirstImage) {
+          myImg.src = "samundar.jpg";
+        } else {
+          myImg.src = "stcok2.jpg";
+        }
+        isFirstImage = !isFirstImage;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onscroll="scrolleffect()">
+    <h4 class="x" onclick="click123()">click</h4>
+    <h4 ondblclick="dblclick()">double click</h4>
+    <h4>move</h4>
+    <h4 onmouseenter="mouseenter()" onmouseleave="mouseleave()">enter-leave</h4>
+
+    <h4>scroll==>check body tag </h4>
+    <h4>unload</h4>
+    <h4>resize</h4>
+
+    <input onkeypress="keyprees()">
+
+    <input onkeydown="onkeydown()">
+
+    <input onkeyup="onkeyup()">
+
+    <input onblur="onblur()">
+
+    <input onfocus="keyprees()">
+    <h4 class="k">keyprees </h4>
+    <h4>keydown</h4>
+    <h4>keyup</h4>
+
+    <h4>sumbit</h4>
+    <h4>blur</h4>
+    <h4>change</h4>
+    <h4>fous</h4>
+
+    <script>
+         h4_tag = document.querySelector('.x');
+        // h41_tag = document.querySelector('.k');
+
+        function click123()
+        {
+            h4_tag.innerHTML ="click me"
+        }
+
+        function dblclick()
+        {
+             h4_tag =document.querySelector('.x').innerHTML="nikita click me ";
+        }
+
+        function mouseenter()
+        {
+            h4_tag.innerHTML ="mouse enter"
+        }
+
+        function mouseleave()
+        {
+            h4_tag.innerHTML= "mouseleave"
+        }
+
+        function scrolleffect()
+        {
+            h4_tag.innerHTML="scroll"
+        }
+
+        
+    </script>
+
+</body>
+</html>

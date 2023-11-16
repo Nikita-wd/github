@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .xyz {
+        transform: translate(0px);
+        transition: 2s;
+      }
+      .main {
+        height: 400px;
+        width: 80%;
+        background-color: blue;
+        position: relative;
+        transform: translate(10px);
+        transition: 2s;
+        margin: 100px auto;
+      }
+      button {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color: brown;
+        border-radius: 50%;
+        border: 2px solid green;
+        top: 46%;
+        left: 99%;
+      }
+      .img {
+        position: relative;
+      }
+      img {
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 380px;
+        width: 340px;
+      }
+    </style>
+  </head>
+  <div class="main" id="main">
+    <button onclick="onclick123()"></button>
+    <div class="img">
+      <img src="stcok1.jpg" alt="" />
+      <img src="stcok2.jpg" alt="" />
+      <img src="samundar.jpg" alt="" />
+    </div>
+  </div>
+
+  <script>
+    var main_tag = document.getElementById("main");
+    function onclick() {
+      if (main_tag == "") {
+        main_tag.style.transform = "translate(-1350px)";
+      } else {
+        main_tag.style.transform = "translate(0px)";
+        main_tag.style.transition = "2s";
+      }
+
+      main_tag.classList.toggle("xyz");
+    }
+  </script>
+  <body></body>
+</html>

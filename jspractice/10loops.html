@@ -1,54 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
-</head>
-<body>
-   <script>
+  </head>
+  <body>
+    <script>
+      // for loop.....
+      //  for(let i=50; i>4; i= i-5){
+      //   console.log(i)
+      //  }
 
-    // for loop.....
-  //  for(let i=50; i>4; i= i-5){
-  //   console.log(i)
-  //  }
+      // while loop....
+      //  let i=10;
+      //  while(i>=0){
+      //   console.log("namste world ")
+      //   i--
+      //  }
 
-  // while loop....
-  //  let i=10;
-  //  while(i>=0){
-  //   console.log("namste world ")
-  //   i--
-  //  }
+      // do....while
+      //  let j =12;
+      //  do{
+      //   console.log("namste world")
+      //   j --
+      //  }
 
-  // do....while
-//  let j =12;
-//  do{
-//   console.log("namste world")
-//   j --
-//  }
+      //  while(j>=0)
 
-//  while(j>=0)
- 
-// for in.....
-// Objects
-let animal={
-  name:"nikita",
-  leg:4
-};
+      // for in.....
+      // Objects
+      // let animal={
+      //   name:"nikita",
+      //   leg:4
+      // };
 
-for(let key in animal){
-  console.log(key, animal[key]);
-}
+      // for(let key in animal){
+      //   console.log(key, animal[key]);
+      // }
 
-// Arrays...
-let names = ["nikita", "neha", "amna", "rishi"];
-for (let index in names){
-  console.log(index, names[index])
-}
+      // // Arrays...
+      // let names = ["nikita", "neha", "amna", "rishi"];
+      // for (let index in names){
+      //   console.log(index, names[index])
+      // }
+      // sum = 0;
+      // let n = prompt("enter of valeu n");
+      // n = Number.parseInt(n);
+      // for (let i = 0; i < n; i++) {
+      //   sum += i + 1;
+      //   console.log(i + 1);
+      // }
+      // console.log("first of valeu " + n + "natural of value" + sum);
 
+      // let obj = {
+      //   harry: 90,
+      //   nikita: 100,
+      //   ritika: 47,
+      //   biito: 90,
+      // };
 
-   
-   </script>
-</body>
+      // for (let a in obj) {
+      //   console.log("marks of " + a + "are" + obj[a]);
+      // }
+
+      // function oneplusaverage(x, y) {
+      //   return 1 + (x + y) / 2;
+      // }
+
+      // const hello = () => {
+      //   console.log("hey nikita how are you?");
+      // };
+      // const sum = (p, q) => {
+      //   return p + q;
+      // };
+      // let a = 1;
+      // let b = 2;
+      // let c = 3;
+      // let v = hello;
+      // console.log(v);
+      // console.log("average of a and b is ", oneplusaverage(a, b));
+      // console.log("average of b and c is ", oneplusaverage(a, b));
+      // console.log("average of a and c is ", oneplusaverage(a, b));
+      // console.log(sum(9, 7));
+
+      let marks = {
+        harry: 90,
+        shubham: 9,
+        lavely: 10,
+        nikita: 90,
+      };
+
+      // for (let i = 0; i < Object.keys(marks).length; i++) {
+      //   console.log("The marks of " + "are" + marks[Object.keys(marks)[i]]);
+      // }
+
+      // for (let key in marks) {
+      //   console.log("the marks of " + key + "are" + marks[key]);
+      // }
+
+      let cn = 43;
+      let i;
+      while (i != cn) {
+        i = prompt("enter number ");
+        console.log("try agin");
+      }
+      console.log("you have entered a correct number ");
+
+      const mean = (a, b, c, d) => {
+        return (a + b + c + d) / 4;
+      };
+
+      console.log(mean(4, 5, 6, 7));
+    </script>
+  </body>
 </html>
