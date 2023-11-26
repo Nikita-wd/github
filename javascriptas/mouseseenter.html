@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p
+      id="para"
+      onmouseenter="onmouseenter123()"
+      onmouseleave="onmouseleave456()"
+    >
+      paragraphnikita
+    </p>
+    <h1 id="h1"></h1>
+    <button id="b1" onclick="Test123()">click me</button>
+
+    <script>
+      function onmouseenter123() {
+        var p1_tag = document.getElementById("para");
+        p1_tag.innerHTML = "nikita";
+      }
+
+      function onmouseleave456() {
+        var p1_tag = document.getElementById("para");
+        p1_tag.innerHTML = "bitto";
+      }
+
+      function Test123() {
+        var b1_tag = document.getElementById("b1");
+
+        b1_tag.innerHTML = "priynka";
+      }
+    </script>
+  </body>
+</html>

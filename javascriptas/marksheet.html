@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h1>Marksheet forinformation technogy</h1>
+  <p>Enter marks</p>
+  <p>1 c launage</p>
+  <input type="text" id="num1" />
+  <p>1 c launage</p>
+  <input type="text" id="num2" />
+  <p>1 c launage</p>
+  <input type="text" id="num3" />
+  <p>1 c launage</p>
+  <input type="text" id="num4" />
+  <p>1 c launage</p>
+  <input type="text" id="num5" />
+  <p>1 c launage</p>
+  <input type="text" id="num6" />
+  <p>1 c launage</p>
+  <input type="text" id="num7" />
+  <br /><br />
+  <button id="barabar">+</button>
+  <br />
+  Result:
+  <input type="number" readonly id="result" />
+  <!-- <button id="barabar">=</button> -->
+
+  <script type="text/javascript">
+    var n1 = document.getElementById("num1");
+    var n2 = document.getElementById("num2");
+    var n3 = document.getElementById("num3");
+    var n4 = document.getElementById("num4");
+    var n5 = document.getElementById("num5");
+    var n6 = document.getElementById("num6");
+    var n7 = document.getElementById("num7");
+    var res = document.getElementById("result");
+
+    document.getElementById("barabar").addEventListener("click", function () {
+      res.value =
+        parseInt(n1.value) +
+        parseInt(n2.value) +
+        parseInt(n3.value) +
+        parseInt(n4.value) +
+        parseInt(n5.value) +
+        parseInt(n6.value) +
+        parseInt(n7.value) +
+    });
+  </script>
+  <body></body>
+</html>

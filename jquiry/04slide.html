@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="nikita.js"></script>
+    <style>
+      .que,
+      .ans {
+        background-color: brown;
+        border: 2px solid;
+      }
+      .ans {
+        /* display: none; */
+      }
+    </style>
+  </head>
+
+  <div class="que">quiestion??</div>
+  <div class="ans">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure repellendus
+    eaque dolorem fuga facere porro fugiat illo officiis est consectetur, ipsa
+    dolor voluptates architecto eum et aspernatur aut neque autem.
+  </div>
+
+  <script>
+    $(".que").click(function () {
+      $(".ans").slideToggle(3000);
+    });
+  </script>
+  <body></body>
+</html>

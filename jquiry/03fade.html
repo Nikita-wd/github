@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="nikita.js"></script>
+  </head>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ullam
+    saepe nulla tempora at veritatis veniam harum natus, itaque voluptas.
+    Assumenda repellat veritatis quis doloremque ea voluptates. Hic, aspernatur
+    obcaecati.
+  </p>
+
+  <button id="b1">hide/fadeout</button>
+  <button id="b2">show/fadein</button>
+  <button id="b3">fadetoggle</button>
+
+  <script>
+    $("#b1").click(function () {
+      $("p").hide(function () {
+        // alert("hidden.....");
+        // document.write("nikita....");
+      });
+    });
+
+    $("#b1").click(function () {
+      $("p").fadeOut(1000);
+      //   $("p").hide(4000);
+    });
+
+    $("#b2").click(function () {
+      $("p").fadeIn(5000);
+    });
+
+    // $("#b2").click(function () {
+    //   $("p").fadeTo("slow", 0.2);
+    // });
+
+    $("#b3").click(function () {
+      //   $("p").fadeToggle(3000);
+      $("p").hide(3000);
+    });
+  </script>
+  <body></body>
+</html>

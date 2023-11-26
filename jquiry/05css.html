@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="nikita.js"></script>
+
+    <style>
+      .xyz {
+        height: 100px;
+        width: 100px;
+        background: cornflowerblue;
+        font-size: 30px;
+        /* transition: 1s; */
+      }
+    </style>
+  </head>
+
+  <div class="xyz">hellow</div>
+  <br />
+  <button>css</button>
+
+  <script>
+    // $("div").css("background-color", "lightblue");
+    // $("div").css("font-size", "30px");
+
+    // $("div").addClass("xyz");
+    // $("div").removeClass("xyz");
+    // $("div").toggleClass("xyz");
+
+    // $("div").css({ color: "red", background: "lightblue" });
+
+    $("button").click(function () {
+      //   $("div").animate({ "margin-left": 200 });
+      $("div").css({ "margin-left": 200 });
+    });
+  </script>
+  <body></body>
+</html>

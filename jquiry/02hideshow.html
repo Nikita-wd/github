@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="nikita.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+  </head>
+
+  <p class="p1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius
+    perspiciatis cupiditate aspernatur omnis, fugiat placeat dolor consequuntur,
+    tempore esse commodi libero odit voluptatem in error dicta earum minus ipsa.
+  </p>
+
+  <button id="b1">hide</button>
+  <button id="b2">show</button>
+  <button id="b3">hide-show</button>
+
+  <script>
+    $(document).ready(function () {
+      $("#b1").click(function () {
+        $(".p1").hide();
+      });
+
+      $("#b2").click(function () {
+        $(".p1").show();
+      });
+
+      $("#b3").dblclick(function () {
+        $(".p1").toggle();
+      });
+    });
+  </script>
+  <body></body>
+</html>

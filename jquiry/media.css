@@ -1,0 +1,435 @@
+@media(max-width:1200px) {
+
+    .first .video {
+        top: 24%;
+        right: 12%;
+    }
+
+    .first .first1 {
+        height: 200px;
+    }
+
+
+
+    /* .main {
+        height: 250vh;
+    } */
+
+    /* .main .box {
+        height: 250vh;
+    } */
+
+    nav {
+        display: flex;
+        max-width: 290vh;
+        /* justify-content: center; */
+    }
+
+
+
+    .first {
+        /* height: 200vh; */
+    }
+
+    .first .img {
+        height: 300px;
+    }
+
+
+
+    .first_1 {
+        /* height: 250vh; */
+        /* max-width: 80%; */
+    }
+
+    .first1 :nth-child(1) {
+        font-size: 55px;
+    }
+
+    .first1 :nth-child(2) {
+        font-size: 19px;
+    }
+
+    .first .img_2 {
+        /* margin-right: 80%; */
+        margin-left: -20%;
+    }
+
+    .video_1 {
+        right: 19%;
+        top: 19%;
+    }
+
+    .first_3 {
+        /* height: 290vh; */
+    }
+
+    .last1 {
+        height: 260vh;
+    }
+
+    span img {
+        width: 150px;
+        color: red;
+    }
+}
+
+@media(max-width:900px) {
+    .hero {
+        max-width: 90%;
+        margin-left: 6%;
+        /* align-items: center; */
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 40px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .hero_btn input {
+        height: 28px;
+        width: 200px;
+    }
+
+    .hero_btn button {
+        height: 39px;
+        width: 200px;
+    }
+
+    .first .img {
+        height: 200px;
+        width: 300px;
+    }
+
+    nav {
+        margin-top: 5%;
+    }
+
+    .first .video {
+        right: 6%;
+        top: 39%;
+        height: 130px;
+        width: 330px;
+    }
+
+    .first .first1 {
+        max-width: 50%;
+    }
+
+    .first1 :nth-child(1) {
+        font-size: 45px;
+    }
+
+    .first1 :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .first1 :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .first_1 :nth-child(1) {
+        font-size: 47px;
+    }
+
+    .first_1 :nth-child(3) {
+        font-size: 20px;
+    }
+
+    .first .img_2 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .first_1 :nth-child(1) {
+        font-size: 40px;
+    }
+
+    .hero_btn1 input {
+        height: 37px;
+
+    }
+
+    .hero_btn1 button {
+        height: 37px;
+    }
+
+    .first1 {
+        max-width: 40%;
+
+    }
+
+    .video_1 {
+        right: 13%;
+        top: 30%;
+
+    }
+}
+
+@media(max-width:700px) {
+    .hero {
+        /* max-width: 30%; */
+    }
+
+    .hero_btn button {
+        height: 36px;
+    }
+
+    .hero_btn input {
+        height: 20px;
+    }
+
+    .first .img {
+        width: 280px;
+        height: 200px;
+
+    }
+
+    .first1 :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .first1 :nth-child(2) {
+        font-size: 8px;
+    }
+
+    .first1 :nth-child(3) {
+        font-size: 10px;
+    }
+
+
+
+    nav {
+        max-width: 80%;
+    }
+
+    .first1 {
+        max-width: 60%;
+    }
+
+    .first_1 {
+        max-width: 28%;
+    }
+
+    .first1 {
+        width: 40%;
+    }
+
+
+
+    .group {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .video_1 {
+        right: 19%;
+        top: 36%;
+    }
+
+    .first .video {
+        right: 7%;
+
+    }
+
+    .first1 :nth-child(1) {
+        font-size: 23px;
+    }
+
+    .first1 :nth-child(2) {
+        font-size: 13px;
+    }
+
+    .first1 :nth-child(3) {
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+@media(max-width:500px) {
+
+    .first1 {
+        /* flex-direction: column; */
+        /* display: block; */
+        /* display: flex; */
+        display: block;
+        display: inline;
+    }
+
+    /* .first {
+        display: block;
+    } */
+    .first {
+        height: 300vh;
+        display: inline;
+        display: block;
+    }
+
+    span img {
+        max-width: 60%;
+    }
+
+    .btn_red {
+        max-width: 30%;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .hero {
+        font-size: 20px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 23px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 12px;
+    }
+
+    .main input {
+        height: 13px;
+        width: 90px;
+    }
+
+    .first .video {
+        top: 55%;
+        right: 25%;
+    }
+
+    .first .img {
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+
+    .first .first1 {
+        max-width: 100%;
+        margin-top: 10%;
+        padding: 10px 10px;
+        height: 30%;
+    }
+
+    .first .img1 {
+        margin-left: 20%;
+    }
+
+    .first_1 {
+        max-width: 50%;
+        margin-left: 25%;
+        /* margin-bottom: 40%; */
+        margin-top: -20%;
+    }
+
+    /* .first_1 :nth-child(2) {
+        width: 20%; */
+    .first_1 :nth-child(3) {
+        max-width: 20%;
+    }
+
+    .first {
+        height: 270vh;
+    }
+
+    .first_1 :nth-child(1) {
+        font-size: 38px;
+    }
+
+    .first .img_2 {
+        width: 270px;
+        height: 230px;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+    .video_1 {
+        top: 45%;
+        right: 30%;
+        width: 35%;
+    }
+
+    .first .img1 {
+        width: 250px;
+        height: 200px;
+        margin-top: 15%;
+        margin-left: 25%;
+
+    }
+
+    .first_1 :nth-child(2) {
+        text-align: center;
+    }
+
+    .first_1 :nth-child(1) {
+        text-align: center;
+    }
+
+    .first_1 {
+        margin-top: -20%;
+    }
+
+    .first_3 {
+        /* height: 250vh; */
+    }
+
+    .last1 {
+        /* height: 300vh; */
+    }
+
+    .mar1 {
+        margin-top: 20%;
+    }
+
+    .p1 {
+        height: 20px;
+        padding: 10px 10px;
+    }
+
+    .hero_btn1 {
+        margin-top: 10%;
+    }
+
+    .hero_btn1 input {
+        height: 30px;
+        width: 50%;
+    }
+
+    .hero_btn1 button {
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .last1 {
+        /* height: 200vh; */
+    }
+
+    .group {
+        /* max-width: 50%; */
+        /* display: inline-block;
+         display: inline; 
+         display: block;  */
+    }
+
+    /* .group .last3 {
+        display: flex;
+    }  */
+
+    .hero> :nth-child(1) {
+        font-size: 28px;
+    }
+}

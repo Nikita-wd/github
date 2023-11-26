@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .xyz {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <h1 id="h">hellow</h1>
+
+  <button id="b1" onclick="Addcss123()">addcss</button>
+  <button id="b2" onclick="RemoveCSS()">removecss</button>
+
+  <button id="b3" onclick="AddRemoveCss()">addcss</button>
+
+  <script>
+    var h1_tag = document.getElementById("h");
+    var b1_tag = document.getElementById("b1");
+    function Addcss123() {
+      b1_tag.style.color = "red";
+    }
+
+    function RemoveCSS() {
+      h1_tag.style.color = "";
+    }
+
+    function AddRemoveCss() {}
+    if (h1_tag.style.color == "") {
+      h1_tag.style.color = "red";
+    } else {
+      h1_tag.style.color = "#000";
+    }
+
+    if (h1_tag.style.color == "") {
+      // h1_tag.classList.add("xyz");
+
+      h1_tag.className = "xyz";
+    } else {
+      h1_tag.classList.remove("xyz");
+
+      h1_tag.className = "";
+    }
+  </script>
+
+  <body></body>
+</html>

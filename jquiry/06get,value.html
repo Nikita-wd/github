@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #test {
+        /* display: none; */
+      }
+    </style>
+    <script src="nikita.js"></script>
+  </head>
+  <!-- <p id="test">this is <b>nikita</b>paragraph name</p>
+
+  <button class="ni1">showtext</button>
+  <button class="ni2">showhtml</button>
+
+  <script>
+    $(document).ready(function () {
+      $(".ni1").click(function () {
+        alert("TEXT:" + $("#test").text());
+      });
+
+      $(".ni2").click(() => {
+        alert("HTML:" + $("#test").html());
+      });
+    });
+  </script> -->
+
+  <p>Name: <input type="text" value="" id="v" /></p>
+
+  <button class="btn">click me</button>
+
+  <script>
+    $(document).ready(function () {
+      $(".btn").click(function () {
+        alert("value:" + $("#v").val());
+        $("#v").css("background-color", "red");
+      });
+    });
+  </script>
+  <body></body>
+</html>
