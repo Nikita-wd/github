@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin-left: 400px;
+      }
+      .center {
+        text-align: center;
+      }
+
+      button {
+        font-size: 30px;
+      }
+      .bu {
+        margin-right: 10px;
+      }
+
+      .center1 {
+        background: rebeccapurple;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <div class="center1">
+    <div class="center">
+      <h1>Maths opreration</h1>
+      &nbsp; &nbsp;Result: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="number" readonly id="result" />
+      <br />
+      <br />
+      Enter 1st number: <input type="text" value="" id="num1" /> <br />
+      <br />
+      Enter 2st number: <input type="text" value="" id="num2" /> <br /><br />
+      <div class="bu">
+        <button id="add">+</button>
+        <button id="sub">-</button>
+        <button id="mul">*</button>
+        <button id="div">/</button>
+        <button id="niyt">%</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var n1 = document.getElementById("num1");
+    var n2 = document.getElementById("num2");
+    var res = document.getElementById("result");
+
+    document.getElementById("add").addEventListener("click", function () {
+      res.value = parseInt(n1.value) + parseInt(n2.value);
+    });
+
+    document.getElementById("sub").addEventListener("click", function () {
+      res.value = parseInt(n1.value) - parseInt(n2.value);
+    });
+
+    document.getElementById("mul").addEventListener("click", function () {
+      res.value = parseInt(n1.value) * parseInt(n2.value);
+    });
+
+    document.getElementById("div").addEventListener("click", function () {
+      res.value = parseInt(n1.value) / parseInt(n2.value);
+    });
+
+    document.getElementById("niyt").addEventListener("click", function () {
+      res.value = parseInt(n1.value) % parseInt(n2.value);
+    });
+  </script>
+  <body></body>
+</html>

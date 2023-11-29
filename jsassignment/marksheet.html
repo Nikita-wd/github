@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="markshheet.js"></script>
+    <style>
+      body {
+        background-color: black;
+      }
+      .container {
+        /* border: 1px solid red; */
+        height: 60vh;
+        display: flex;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        /* margin-left: 40%; */
+        align-items: center;
+        font-size: 30px;
+      }
+      input {
+        /* margin-left: ; */
+        font-size: 20px;
+      }
+      .coli1 {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        font-size: 27px;
+        color: white;
+      }
+      button {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="book1">
+          <label for="">C language:</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" value="" placeholder="Marks" id="bookone" />
+        </div>
+
+        <div class="book2">
+          <label for="">C++ Language:</label>
+
+          <input type="number" value="" placeholder="Marks" id="booktwo" />
+        </div>
+
+        <div class="book3">
+          <label for="">Database:</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" value="" placeholder="Marks" id="bookthree" />
+        </div>
+
+        <div class="book4">
+          <label for="">HTML:</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" value="" placeholder="Marks" id="bookfour" />
+        </div>
+
+        <div class="book5">
+          <label for="">CSS:</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" value="" placeholder="Marks" id="bookfive" />
+        </div>
+
+        <div class="book6">
+          <label for="">PHP:</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" value="" placeholder="Marks" id="booksix" />
+        </div>
+
+        <div class="book7">
+          <label for="">Code js:</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" value="" placeholder="Marks" id="bookseven" />
+        </div>
+        <br />
+        <div><button onclick="Calculate()">Result</button></div>
+      </div>
+    </div>
+
+    <div class="coli1">
+      <table class="">
+        <tr>
+          <td>Total Marks:</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>Obtained Marks:</td>
+          <td id="Obtained"></td>
+        </tr>
+        <tr>
+          <td>Percentage:</td>
+          <td id="Percentage"></td>
+        </tr>
+        <tr>
+          <td>Grade:</td>
+          <td id="Grade"></td>
+        </tr>
+        <tr>
+          <td>Remarks:</td>
+          <td id="Remarks"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
