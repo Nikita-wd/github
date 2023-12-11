@@ -1,12 +1,12 @@
-// function validateform() {
-//   var name = document.myform.Name.value;
-//   var password = document.myform.password.value;
+function validateform() {
+  var name1 = document.getElementById("inp1").value;
+  var password = document.myform.password.value;
 
-//   if (name == null || name == "") {
-//     alert("name can not be blank");
-//     return false;
-//   } else if (Password.length < 6) {
-//     alert("password must be at least 6 characters long.");
-//     return false;
-//   }
-// }
+  if (name1 == null || name1 == "") {
+    alert("name can not be blank");
+    return false;
+  } else if (Password.length < 6) {
+    alert("password must be at least 6 characters long.");
+    return false;
+  }
+}
