@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: black;
+        overflow: hidden;
+        /* position: fixed; */
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        width: 100%;
+        top: 0;
+        /* bottom: 0; */
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px 10px;
+      }
+      li {
+        float: left;
+        border-right: 1px solid white;
+      }
+      li:last-child {
+        border-right: none;
+      }
+      .style {
+        margin-top: 0px;
+        padding: 50px;
+        background: #1abc9c;
+      }
+      .header {
+        /* flex-direction: column; */
+      }
+      .right {
+        float: right;
+      }
+      @media screen and (max-width: 600px) {
+        li {
+          float: none;
+        }
+        .right {
+          float: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Scroll Down</h2>
+      <br />
+      <p>Scroll down to see the sticky effect.</p>
+    </div>
+    <ul>
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+      <!-- <li><a href="">home</a></li>
+      <li><a href="">home</a></li> -->
+      <li class="right"><a href="">nikita</a></li>
+    </ul>
+
+    <div class="style">
+      <h1>Fixed Top Navigation Bar</h1>
+      <h2>Scroll this page to see the effect</h2>
+      <h2>
+        The navigation bar will stay at the top of the page while scrolling
+      </h2>
+
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+    </div>
+  </body>
+</html>

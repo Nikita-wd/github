@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(226, 229, 230, 0.835);
+}
+
+.box_center {
+    border: 1px solid;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.one i {
+    font-weight: normal;
+}
+
+.box1 {
+    border: 1px solid red;
+    background: rgba(255, 255, 255, 0.754);
+    /* padding: 10px 10px; */
+    max-width: 300px;
+    text-align: center;
+    height: 370px;
+    position: relative;
+
+}
+
+.ni1 {
+    /* font-size: 100px;
+    margin-top: 30px; */
+    display: flex;
+    margin-left: 65px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.nikita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    font-size: 50px;
+    color: rgba(208, 211, 211, 0.945);
+}
+
+h5 {
+    color: rgba(208, 211, 211, 0.716);
+    /* margin-top: 30px; */
+}
+
+.lorem {
+    margin-top: 25px;
+    padding: 0 5px;
+}
+
+.ni1 i {
+    font-size: 80px;
+    /* font-weight: 100; */
+    /* margin-top: 30px; */
+}
+
+
+
+.box1 .one {
+    font-size: 16px;
+    margin-top: 70px;
+
+}
+
+span {
+    /* margin-top: 20px; */
+
+}
+
+.ni2 {
+    background: rgb(99, 41, 208);
+    /* max-width: 200px; */
+    width: 200px;
+    text-align: center;
+    height: 45px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.ni3 {
+    width: 300px;
+    /* max-width: 300px; */
+    height: 8px;
+    background: rgb(99, 41, 208);
+    border: navajowhite;
+    /* margin-left: 20px; */
+
+}
+
+.ni5 {
+    border: 1px solid;
+    /* max-width: 100px; */
+    width: 100px;
+    height: 61px;
+    position: absolute;
+    top: 77%;
+    right: 10%;
+    z-index: -1;
+    /* color: black; */
+}
