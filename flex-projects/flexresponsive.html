@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        /* margin: 0;
+        padding: 0; */
+      }
+      body {
+        margin: 0;
+      }
+      .note {
+        background: yellow;
+        padding: 25px;
+        text-align: center;
+      }
+      .comapny {
+        background: #1abc9c;
+        padding: 60px;
+        text-align: center;
+      }
+      .navbar {
+        display: flex;
+        background: black;
+        padding: 20px;
+      }
+      li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .side {
+        background-color: #f1f1f1;
+        flex: 30%;
+        padding: 20px;
+      }
+      .main {
+        flex: 70%;
+        padding: 20px;
+      }
+      .fakeking {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+      .footer {
+        padding: 30px;
+        background-color: #aaa;
+        text-align: center;
+      }
+      @media screen and (max-width: 600px) {
+        .row,
+        .navbar {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="note">
+      <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+
+    <div class="comapny">
+      <h1>My Website</h1>
+      <p>With a flexible layout.</p>
+    </div>
+
+    <div class="navbar">
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+    </div>
+
+    <div class="row">
+      <div class="side">
+        <h2>About Me</h2>
+        <h5>Photo of me</h5>
+        <div class="fakeking" style="height: 200px">iamge</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3>More Text</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <div class="fakeking" style="height: 60px">image</div>
+        <div class="fakeking" style="height: 60px">image</div>
+        <div class="fakeking" style="height: 60px">image</div>
+      </div>
+      <div class="main">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeking" style="height: 200px">iamge</div>
+        <h3>More Text</h3>
+        <p>
+          Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco.
+        </p>
+        <br />
+
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeking" style="height: 200px">iamge</div>
+        <h3>More Text</h3>
+        <p>
+          Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+  </body>
+</html>

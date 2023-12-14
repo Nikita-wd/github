@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        background: lightcoral;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+        padding: 10px 10px;
+        /* position: relative; */
+      }
+      li a {
+        text-decoration: none;
+        padding: 10px 10px;
+      }
+      li {
+        float: left;
+        padding: 10px 10px;
+      }
+      .nikita a {
+        display: block;
+      }
+      .nikita {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      .nikita1:hover .nikita {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+      <li><a href="">home</a></li>
+      <li class="nikita1">
+        <a href="">home</a>
+        <div class="nikita">
+          <a href="">nikita</a>
+          <a href="">nikita</a>
+          <a href="">nikita</a>
+          <a href="">nikita</a>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>

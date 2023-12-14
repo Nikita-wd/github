@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body * {
+        border: 2px solid;
+      }
+      .main {
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+
+        grid-template-rows: 200px;
+        gap: 20px;
+      }
+
+      @media (max-width: 992px) {
+        .main {
+          grid-template-columns: 2fr 2fr;
+          grid-template-rows: 200px 200px 200px 200px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .main {
+          grid-template-columns: 2fr 2fr 2fr;
+          grid-template-rows: 200px 200px 200px 200px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .main {
+          grid-template-columns: 2fr;
+          grid-template-rows: 200px 200px 200px 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">card 1</div>
+      <div class="card">card 1</div>
+      <div class="card">card 1</div>
+      <div class="card">card 1</div>
+    </div>
+  </body>
+</html>
