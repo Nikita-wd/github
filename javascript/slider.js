@@ -4,7 +4,7 @@ const initSlider = () => {
   slideButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const direction = button.id === "right12" ? -1 : 1;
-      const scrollAmount = imagelist.clientWith * direction;
+
       imagelist.scrollby({ left: scrollAmount, behavior: "smooth" });
     });
   });
