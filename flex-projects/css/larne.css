@@ -627,7 +627,7 @@ hr {
 .box_center7 .box_3_3 {
     /* border: 1px solid; */
     max-width: 50%;
-    padding: 50px 50px;
+    padding: 50px 100px;
 }
 
 .box_center7 .box_3_3 p:nth-child(1) {
@@ -641,12 +641,10 @@ hr {
 
 .box_center7 .box_3_3 p:nth-child(2) {
     font-family: "Inter", sans-serif;
+    margin-top: 13px;
     color: #666;
-    font-size: 15px;
-    font-weight: 500;
-    width: 78%;
+    font-weight: 600;
     opacity: 0.9;
-    margin-top: 20px;
     /* padding: 10px; */
 }
 
@@ -657,7 +655,7 @@ hr {
     font-family: "Inter", sans-serif;
     color: #666;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     opacity: 0.9;
     margin-top: 20px;
 }
@@ -666,7 +664,7 @@ hr {
     font-family: "Inter", sans-serif;
     color: #666;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     opacity: 0.9;
     margin-top: 10px;
 }
@@ -675,7 +673,7 @@ hr {
     font-family: "Inter", sans-serif;
     color: #666;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     opacity: 0.9;
     margin-top: 10px;
 }
@@ -1016,4 +1014,181 @@ hr {
     height: 10px;
     border-radius: 50%;
     /* font-family: "Inter", sans-serif; */
+}
+
+.box_center9 {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 120px;
+}
+
+.box_center9 .box9 {
+    /* border: 1px solid black; */
+
+}
+
+.box_center9 .box9 img {
+    width: 450px;
+    /* margin-left: 80px; */
+
+}
+
+.box_center9 .box_9 {
+    /* border: 1px solid slateblue; */
+    padding: 20px;
+
+}
+
+.box_center9 .box_9 i {
+    color: #000000;
+
+    font-weight: bolder;
+}
+
+.box_center9 .box_9 p:nth-child(1) {
+    font-size: 25px;
+    color: #136ad5;
+}
+
+.box_center9 .box_9 p:nth-child(2) {
+    color: #666;
+    margin-top: 30px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.box_center9 .box_9 p:nth-child(3) {
+    color: #666;
+    margin-top: 30px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.box_center9 .box_9 p:nth-child(4) {
+    color: #666;
+    margin-top: 17px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.box_center9 .box_9 p:nth-child(5) {
+    color: #666;
+    margin-top: 17px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.center_desing {
+    /* border: 1px solid rebeccapurple; */
+    background: #136ad5;
+    /* color: white; */
+}
+
+.center_desing .center_desing1 {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 50px;
+}
+
+.center_desing .center_desing2 {
+    padding: 50px 90px;
+    /* border: 1px solid springgreen; */
+    max-width: 37%;
+}
+
+.center_desing .center_desing2 p {
+    font-size: 15px;
+    color: white;
+    opacity: 0.9;
+
+}
+
+.center_desing .box_icon1 {
+    /* border: solid red; */
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+}
+
+.center_desing .box_icon1 i {
+    color: black;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.center_desing .box_icon1 p {
+    background: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+}
+
+.center_desing .center_desing3 {
+    /* border: 1px solid slategrey; */
+    padding: 30px;
+    line-height: 35px;
+}
+
+.center_desing .center_desing3 span {
+    font-size: 16px;
+    color: white;
+}
+
+.center_desing .center_desing3 p {
+    color: white;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.center_desing .center_desing4 {
+    /* border: 1px solid lightcoral; */
+    padding: 30px;
+}
+
+.center_desing .center_desing4 p {
+    color: white;
+    opacity: 0.9;
+
+}
+
+.center_desing .center_desing4_34 {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.center_desing .center_desing4_34 img {
+    width: 70px;
+    height: 70px;
+}
+
+.center_desing .center_desing5 {
+    /* border: 1px solid lightseagreen; */
+    padding: 30px;
+}
+
+.center_desing .center_desing5 span {
+    color: white;
+    opacity: 0.9;
+
+}
+
+.center_desing .center_desing5 p {
+    color: white;
+    opacity: 0.4;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.center_desing .center_desing_2 {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 60px;
+}
+
+.center_desing .center_desing_2 p {
+    color: white;
+    font-size: 15px;
 }
