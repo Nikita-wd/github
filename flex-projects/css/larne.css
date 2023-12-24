@@ -90,6 +90,7 @@ ul {
     padding: 0;
     overflow: hidden;
     opacity: 0.6;
+    /* position: absolute; */
 }
 
 .drop a {
@@ -237,6 +238,7 @@ ul li a {
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 10px;
     gap: 20px;
 }
@@ -307,6 +309,8 @@ ul li a {
 .box_center3 {
     margin-top: 10%;
     display: flex;
+
+    flex-wrap: wrap;
     position: relative;
     background: #f8f9fa;
     height: 100vh;
@@ -432,6 +436,7 @@ ul li a {
 .box_center4 {
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
     gap: 30px;
@@ -493,6 +498,7 @@ ul li a {
     /* border: 1px solid; */
     color: #136ad5;
     display: flex;
+
     font-weight: 400;
     justify-content: space-between;
     padding: 17px;
@@ -525,6 +531,7 @@ ul li a {
 .box_center5 .box2_2 .Program1 {
     /* border: 1px solid; */
     display: flex;
+
     justify-content: space-between;
     padding: 17px;
 }
@@ -549,6 +556,7 @@ hr {
 .box_center5 .box_2_2 {
     /* border: 1px solid; */
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 40px;
 }
@@ -621,6 +629,7 @@ hr {
     padding: 80px 0px;
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     position: relative;
 }
 
@@ -800,6 +809,7 @@ hr {
 .box_center8 .main_center_main {
     /* border: 1px solid; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px 100px;
 }
@@ -807,6 +817,7 @@ hr {
 .box_center8 .box_wi2 {
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
     /* padding: 20px 100px; */
@@ -897,6 +908,7 @@ hr {
 .main_center_main1 .main2_box {
     /* border: 1px solid; */
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding: 50px 140px;
     gap: 25px;
@@ -1019,6 +1031,7 @@ hr {
 .box_center9 {
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     padding: 120px;
 }
 
@@ -1087,6 +1100,7 @@ hr {
 .center_desing .center_desing1 {
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     padding: 50px;
 }
 
