@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Three Equal Columns</h2>
+      <p>
+        Use the .col class on a specified number of elements and Bootstrap will
+        recognize how many elements there are (and create equal-width columns).
+        In the example below, we use three col elements, which gets a width of
+        33.33% each.
+      </p>
+      <div class="row">
+        <div class="col-sm-3 bg-dark text-white">col</div>
+        <div class="col-sm-6 bg-success">col</div>
+        <div class="col-sm-3 bg-warning">col</div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container">
+      <h2>Row Cols</h2>
+      <p>
+        The .row-cols-* classes are used to set the number of columns that
+        should appear next to each other.
+      </p>
+      <div class="row">
+        <div class="col bg-dark text-white">col</div>
+        <div class="col bg-success">col</div>
+      </div>
+      <br />
+      <div class="row row-cols-2">
+        <div class="col bg-dark text-white">col1</div>
+        <div class="col bg-success">col2</div>
+        <div class="col bg-warning">col3</div>
+        <div class="col bg-dark text-white">col4</div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col bg-dark text-white">col1</div>
+        <div class="col bg-success">col2</div>
+        <div class="col bg-warning">col3</div>
+        <div class="col bg-dark text-white">col4</div>
+        <div class="col bg-warning">col5</div>
+        <div class="col bg-success">col6</div>
+      </div>
+    </div>
+  </body>
+</html>
