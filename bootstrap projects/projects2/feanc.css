@@ -1,3 +1,7 @@
+* {
+    /* border: 1px solid black; */
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     /* border: 1px solid; */
@@ -171,7 +175,7 @@ body {
 
 .hero-area {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -322,4 +326,50 @@ body {
     width: 100px;
     border: 5px solid #ffbe33;
     border-radius: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .hero-area {
+        height: 900px;
+    }
+
+    .lakj {
+        width: 600px;
+        margin-top: 100px;
+        margin-left: -120px;
+        height: 50px;
+    }
+
+    .zkjdg {
+        margin-left: 36%;
+    }
+
+    .order {
+        margin-left: 33%;
+    }
+
+    .stati img {
+        width: 360px;
+    }
+
+    .qpou {
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    .qpkitsw {
+        width: 700px;
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .lak {
+        margin-top: 70%;
+        margin-left: 20%;
+    }
+
+    .lawrje {
+        margin-left: 40%;
+    }
+
 }
