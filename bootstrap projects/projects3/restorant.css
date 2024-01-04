@@ -1,0 +1,121 @@
+* {
+    /* border: 1px solid; */
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #0c0c0c36;
+}
+
+.bg_hero {
+    background-size: cover;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 136vh;
+
+
+}
+
+.book {
+    padding: 17px 35px;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;
+    background-color: #FEA116;
+    border-color: #FEA116;
+    border: 1px solid transparent;
+}
+
+.niki {
+    padding-top: 15%;
+}
+
+.niki h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "Nunito", sans-serif;
+}
+
+.here {
+    /* background: lightcoral; */
+    overflow: hidden;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.here img {
+    /* width: 100px;
+    height: 100px; */
+    max-width: 100%;
+    height: auto;
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate {
+    from {
+        transform: rotate(0dge);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ziddidil {
+    margin-left: 30%;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.btn {
+    background-color: #FEA116;
+    border-color: #FEA116;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    width: 180px;
+    text-align: center;
+}
+
+.box1 {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .1)
+}
+
+.box1:hover {
+    background-color: #FEA116;
+}
+
+.text-black:hover {
+    color: white;
+}
+
+.fw-bol:hover {
+    color: white;
+}
+
+.text-black {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: #0F172B;
+    font-size: 20px;
+}
+
+.fw-bol {
+    font-size: medium;
+    /* font-size: 10px; */
+    font-weight: normal;
+    color: #666565;
+    line-height: 5px;
+}
