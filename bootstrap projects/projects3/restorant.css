@@ -17,7 +17,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 136vh;
+    height: 160vh;
 
 
 }
@@ -78,14 +78,15 @@
 
 }
 
-.btn {
+.btn-outline-success {
     background-color: #FEA116;
     border-color: #FEA116;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     color: white;
-    width: 180px;
+    width: 230px;
+    height: ;
     text-align: center;
 }
 
@@ -119,3 +120,127 @@
     color: #666565;
     line-height: 5px;
 }
+
+.abour {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    color: #FEA116;
+}
+
+.mb-4 {
+    color: #666565;
+    font-size: 18px;
+}
+
+.flex-shrink-0 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Nunito", sans-serif;
+}
+
+.text-uppercase {
+    color: rgba(0, 0, 0, 0.896);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.abour1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive; */
+}
+
+.btn {
+    background-color: #FEA116;
+    border-color: #FEA116;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    width: 190px;
+}
+
+.cdn2 {
+    font-size: 17px;
+}
+
+.cdn {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cdn1 {
+    font-weight: 200;
+}
+
+.video {
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(video.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ff-secondary {
+    font-family: 'Pacifico';
+}
+
+.tattt {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.team-item {
+    box-shadow: 0 0 45px rgba(32, 32, 32, 0.267);
+    /* height: calc(100% - 38px); */
+}
+
+.fuild {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-item:hover {
+    height: 320px;
+}
+
+.fuild:hover {
+    transform: scale(1.1);
+}
+
+.textii {
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.kiy {
+    font-family: 'Pacifico';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.kiy1 {
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.qwi {
+    background-color: #0F172B;
+}
+
+/* .d-none:hover {
+    display: inline-block;
+    color: #0F172B;
+} */
