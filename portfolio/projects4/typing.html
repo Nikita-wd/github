@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gabarito:wght@400;600;700;900&family=Martel+Sans:wght@600&family=Oswald:wght@700&family=Pacifico&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins" sans-serif;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #343f4f;
+      }
+      .nikita {
+        display: inline-flex;
+      }
+      .nikita .bitto {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 400;
+      }
+      .nikita .bii {
+        margin-left: 15px;
+        line-height: 90px;
+        height: 90px;
+        overflow: hidden;
+      }
+      .bii li {
+        color: #fc6d6d;
+        list-style: none;
+        font-size: 60px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        animation: slide 6s steps(1);
+      }
+      @keyframes slide {
+        100% {
+          top: -360px;
+        }
+      }
+
+      .bii li span {
+        position: relative;
+      }
+      .bii li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 120%;
+        width: 100%;
+        background: #343f4f;
+        border-left: 2px solid #fc6d6d;
+        animation: typing 1.5s steps(20) infinite;
+      }
+      @keyframes typing {
+        100% {
+          left: 120%;
+          margin: 0 -35px 0 -35px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nikita">
+      <div class="bitto">I'm a</div>
+      <ul class="bii">
+        <li><span> Web desinger </span></li>
+        <!-- <li><span>Desinger</span></li> -->
+        <!-- <li><span>Developer</span></li> -->
+        <!-- <li><span>Freelance</span></li> -->
+      </ul>
+    </div>
+  </body>
+</html>
