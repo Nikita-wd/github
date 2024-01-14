@@ -38,7 +38,7 @@
       <div class="container">
         <a class="navbar-brand text-white fs-3" href="#">Nikita Kuril</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler text-white bg-success"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -51,28 +51,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item  priy">
-              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item priy">
-              <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+              <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item priy">
-              <a class="nav-link active text-white" aria-current="page" href="#">services</a>
+              <a class="nav-link active text-white" aria-current="page" href="#services">services</a>
             </li>
             <li class="nav-item priy">
-              <a class="nav-link active text-white" aria-current="page" href="#">work</a>
+              <a class="nav-link active text-white" aria-current="page" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item priy">
-              <a class="nav-link active text-white" aria-current="page" href="#">blog</a>
-            </li>
-            <li class="nav-item priy">
-              <a class="nav-link active text-white " aria-current="page" href="#">contact</a>
+              <a class="nav-link active text-white " aria-current="page" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     <!-- navbar end. -->
-      <div class="name">
+      <div class="name " id="home">
         <h1 class="fw-bold piya">Nikita Kuril</h1>
         <div class="nikita">
           <div class="bitto">I'm a</div>
@@ -87,8 +84,8 @@
     </div>
   </nav>
   <!-- end. -->
-    <div class="container-xxl py-5">
-      <div class="container py-5">
+    <div class="container-xxl py-5 bg-dark " id="about">
+      <div class="container py-5 text-white">
          <div class="box-show px-5 py-3 border-5">
           <div class="col-sm-12">
             <div class="row py-3">
@@ -166,17 +163,17 @@
       </div>
     </div>
     <!-- end. -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="services">
       <div class="container">
          <div class="row">
            <div class="col-sm-12">
               <div class="text-center">
-                <p class="fw-bold fs-1">SERVICES</p>
+                <p class="fw-bold fs-1 text-white">SERVICES</p>
               </div>
            </div>
          </div>
          <br>
-         <div class="row"> 
+         <div class="row g-5"> 
              <div class="col-lg-4">
               <div class="services-box text-center py-4">
                 <div class="services1 ">
@@ -198,7 +195,7 @@
                     </div>
                     <h4 class="py-1">WEB DEVELOPMENT</h4>
                 </div>
-                <div class="services2 mx-5">
+                <div class="services2 mx-4">
                    <p> I'm Nikita Kuril, a passionate web developer on a mission to build exceptional digital experiences. With a strong foundation in coding and a penchant for problem-solving, I thrive in the dynamic and ever-evolving world of web development.</p>
                 </div>
               </div>
@@ -209,9 +206,9 @@
                     <div class="icon-cricle">
                       <i class="fa-solid fa-mobile tv"></i>
                     </div>
-                    <h4 class="py-1">RESPONSIVE DESIGN</h4>
+                    <h4 class="py-3">RESPONSIVE DESIGN</h4>
                 </div>
-                <div class="services2 mx-5">
+                <div class="services2 mx-4">
                    <p> I'm Nikita Kuril, a dedicated and detail-oriented web designer with a strong focus on responsive design. Crafting digital experiences that seamlessly adapt to various devices and screen sizes is not just a skill for me it's a passion.</p>
                 </div>
               </div>
@@ -220,8 +217,9 @@
       </div>
     </div>
     <!-- end. -->
-    <div class="container-xxl">
-      <div class="container">
+    <div class="container-xxl py-1" id="portfolio">
+      <div class="container py-3">
+        <p class="text-white text-center py-5 fw-bold fs-1">Portfolio</p>
            <div class="row g-5">
                <div class="col-lg-4">
                  <div class="services-box11">
@@ -316,8 +314,8 @@
             <div class="container py-5">
               <div class="text-center py-5">
                <p><img src="testimonial-4.jpg" style="border-radius: 50%;" alt=""></p>
-               <p>Nikita Kuril</p>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, expedita obcaecati, officia distinctio hic molestias sequi sunt quis quam corporis error vel ipsum dolor! Fugiat neque voluptatum nemo non qui.</p>
+               <p class="fw-bold fs-3">Nikita Kuril</p>
+               <p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
            </div>
         </div>
       </div>
@@ -325,10 +323,10 @@
   </div>
     
     <!-- end. -->
-    <br><br>
-    <div class="container-xxl bg-succ py-5">
-      <div class="container">
-         <div class="box-show bg-white ">
+    <br><br><br><br>
+    <div class="container-xxl bg-succ py-5" id="Contact">
+      <div class="container py-5">
+         <div class="box-show bg-dark text-white">
             <div class="row">
                <div class="col-sm-12">
                  <div class="row">
@@ -363,14 +361,18 @@
                         </div>
                     </div>
                         </form>
+                        <div class="col-md-12">
+                          <button class="btn btn-primary w-50 rounded-pill h-50 py-3 mt-5 fw-bold"  type="button">Send Message</button>
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-6 px-5 py-5">
                       <div>
-                        <p>Get in Touch</p>
+                        <p class="fw-bold fs-3">Contact Me!</p>
                       </div>
                       <div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero accusamus itaque odio illo alias. Tempora dolore maiores in, autem sunt ipsa praesentium reiciendis iure? Quis ipsum saepe quo consequatur voluptatum.</p>
+                        <p>If you have any project in your mind.</p>
+                        <p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
                         <p> <i class="fa-solid fa-location-dot"></i> Girdharnagar shahibag Ahemdabad:-380004</p>
                         <p><i class="fa-solid fa-phone"></i> 7096865538</p>
                         <p> <i class="fa-solid fa-envelope"></i> nikitakuril329@gmail.com</p>
@@ -382,6 +384,7 @@
                           <li><a href=""><span class="ico-circle"><i class="fa-brands fa-twitter"></i></span></a></li>
                         </ul>
                       </div>
+                     
                     </div>
                  </div>
                </div>
