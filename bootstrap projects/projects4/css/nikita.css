@@ -13,10 +13,11 @@ body {
 .bg-image {
     position: absolute;
     height: 100vh;
-    background: url(intro-bg.jpg);
+    background: url(../image/intro-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
+    background-position: center center;
     background-color: rgba(0, 0, 0, 0.6);
     background-attachment: fixed;
 
@@ -119,7 +120,7 @@ body {
     width: 80%;
     /* background: #343f4f; */
     /* border-left: 2px solid #fc6d6d; */
-    animation: typing 9s steps(20) infinite;
+    animation: typing 6s steps(20) infinite;
 }
 
 @keyframes typing {
@@ -128,6 +129,7 @@ body {
         left: 130%;
         margin: 0 -60px 0 -60px;
     }
+
 }
 
 .sect-pt4 {
@@ -139,7 +141,7 @@ body {
 }
 
 .box-show {
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 20px white;
 }
 
 .icon-cricle {
@@ -158,12 +160,12 @@ body {
 
 .services-box {
     background: white;
-    box-shadow: 0px 0px 20px rgba(67, 66, 66, 0.084);
+    box-shadow: 0px 0px 20px white;
     border-radius: 30px;
 }
 
 .services-box11 {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px white;
     border-radius: 10px;
 }
 
@@ -174,7 +176,7 @@ body {
 
 .poi {
     position: relative;
-    background: url(overlay-bg.jpg);
+    background: url(../image/overlay-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -186,18 +188,17 @@ body {
 
 
 .bg-succ {
-    /* position: absolute; */
-    top: 10%;
-    right: 0;
-    background-color: #0077ff4e;
-    z-index: -1;
-    /* background-attachment: fixed; */
+    background: linear-gradient(rgba(0, 0, 0, .4), #0078ff), url("../image/work-6.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+    /* width: 300px; */
 }
 
 .socials ul {
     list-style: none;
     padding-left: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .socials ul li {
@@ -207,9 +208,9 @@ body {
 .socials .ico-circle {
     height: 40px;
     width: 40px;
-    padding: 10px;
+    /* padding: 10px 15px;
     font-size: 20px;
-    border-radius: 50%;
+    border-radius: 50%; */
     /* line-height: 1.4; */
     /* border: 3px solid #0078ff; */
 }
