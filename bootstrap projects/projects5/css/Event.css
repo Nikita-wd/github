@@ -35,3 +35,62 @@ body {
 .navbar-brand .kiy span {
     color: black;
 }
+
+.your1 {
+    font-family: 'Playball', cursive;
+    font-size: 72px;
+    color: black;
+}
+
+.your1 span {
+    color: #d4a762;
+}
+
+.clients {
+    font-family: 'Playball', cursive;
+    font-weight: 500;
+    font-size: 45px;
+
+}
+
+.fa-chevron-right {
+    color: #d4a762;
+}
+
+.fa-users {
+    font-size: 70px;
+}
+
+.fa-cheese {
+    font-size: 120px;
+    color: #d4a762;
+}
+
+.nikiii {
+    font-size: 120px;
+    color: #d4a762;
+}
+
+.bg-white1 {
+    background: white;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    /* height: 300px; */
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.bg-white2 {
+    background: #d4a762;
+    /* height: 300px; */
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    margin-top: -400px;
+    border-radius: 10px;
+}
+
+.bg-white1:hover .bg-white2 {
+    margin-top: -0px;
+}
