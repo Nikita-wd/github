@@ -94,3 +94,35 @@ body {
 .bg-white1:hover .bg-white2 {
     margin-top: -0px;
 }
+
+.border-primary {
+    color: #d4a762;
+    border-color: #d4a762;
+}
+
+.lang {
+    position: relative;
+}
+
+.lang1 {
+    color: #000;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+    background: rgba(212, 167, 98, 0.7);
+    border-radius: 8px;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.lang:hover .lang1 {
+    opacity: 1;
+}
+
+.one {
+    /* border-bottom-style: dashed; */
+    /* border-color: #d4a762; */
+    /* border: 5px dashed red; */
+    border-bottom: 2px dashed #d4a762;
+}

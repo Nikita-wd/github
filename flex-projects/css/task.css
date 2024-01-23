@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.denatl {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+    background: white;
+}
+
+.navar ul li {
+    display: inline;
+    font-size: 15px;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 0 20px;
+
+
+}
+
+.navar ul {
+    /* border: 1px solid; */
+    /* padding: 0px 70px; */
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.navar1 {
+    color: #fff;
+    background: #00bcd4;
+    position: relative;
+
+}
+
+.style {
+    position: absolute;
+    top: 50px;
+    /* right: 0px; */
+    /* left: -70px; */
+    background: #00bcd4;
+    text-align: start;
+    padding: 20px 70px;
+    opacity: 0;
+    /* transition: 1s; */
+}
+
+.navar1:hover .style {
+    opacity: 1;
+}
+
+.navar2 {
+    position: relative;
+}
+
+.style1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    padding: 20px 70px;
+    background: #00bcd4;
+    opacity: 0;
+}
+
+.navar2:hover .style1 {
+    opacity: 1;
+}
+
+.navar6 {
+    position: relative;
+}
+
+.box1 {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 25px 50px;
+    background: #00bcd4;
+    opacity: 0;
+}
+
+.navar6:hover .box1 {
+    opacity: 1;
+}
+
+.mainbox {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    color: #959595;
+
+    background: #f8f8f8;
+}
+
+.boxsin {
+    display: flex;
+    padding: 20px 10px;
+    /* border: 1px solid; */
+}
+
+.boder {
+    /* width: 50px; */
+    color: #00bcd4;
+    font-size: 25px;
+    height: 70px;
+    padding: 0px 20px;
+    border: 1px solid #b1afafa9;
+}
+
+.boder1 {
+    padding: 0px 10px;
+    width: 200px;
+}
+
+.img {
+    background: url(../img/dentalia-slider-1920x600-cosmetic-dentistry.jpg);
+    background-size: 100% 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+    text-align: start;
+    /* padding: 200px 0px; */
+}
+
+.imgbox p:nth-child(2) {
+    /* color: red; */
+    font-size: 30px;
+}
+
+.imgbox p:nth-child(3) {
+    background: #00bcd4;
+    font-size: 25px;
+    width: 30%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.imgbox {
+    /* border: 1px solid; */
+    padding: 100px 80px;
+    font-size: 50px;
+    color: white;
+    max-width: 50%;
+}
+
+.mainbox1 {
+    background: #f8f8f8;
+    display: flex;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px;
+
+
+}
+
+.box2 {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    border-color: #1e1d1d;
+
+}
+
+.box3 {
+    text-align: center;
+    color: #959595;
+    padding: 20px 20px;
+}
+
+.mainbox2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+    ba
+}
+
+.mainbox2 p:nth-child(2) {
+    border: 2px solid;
+    padding: 20px 30px;
+    margin-top: 3px;
+}
+
+.mainbox2 p span {
+    background: #00bcd4;
+    padding: 10px 10px;
+}
