@@ -13,7 +13,7 @@ body {
 .bg-image {
     position: absolute;
     height: 100vh;
-    background: url(intro-bg.jpg);
+    background: url("./images/intro-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -174,7 +174,8 @@ body {
 
 .poi {
     position: relative;
-    background: url(overlay-bg.jpg);
+    background: url('./images/overlay-bg.jpg');
+    /* background: url(./images/overlay-bg.jpg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;

@@ -53,6 +53,32 @@ body {
 
 }
 
+.experienced {
+    font-family: 'Playball', cursive;
+    color: #d4a762;
+    font-size: 60px;
+}
+
+.Serv {
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+
+.First {
+    color: #d4a762;
+    font-family: 'Playball', cursive;
+}
+
+.Most {
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    color: #d4a762;
+}
+
+.Where {
+    font-family: 'Playball', cursive;
+}
+
 .fa-chevron-right {
     color: #d4a762;
 }
