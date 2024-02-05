@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .niki {
+        margin: 100px;
+        height: 300px;
+        width: 300px;
+        /* background: white; */
+        background: lightblue;
+        overflow: hidden;
+        position: relative;
+      }
+      .bitt {
+        height: 320px;
+        width: 300px;
+        margin-top: -320px;
+        background: rgb(66, 15, 117);
+        /* background: red; */
+        transition: 1s;
+        position: absolute;
+        top: 0;
+      }
+      .niki:hover .bitt {
+        margin-top: -20px;
+      }
+      .ni1 {
+        color: red;
+        border: 1px solid;
+        padding: 10px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="niki">
+      <p>Wedding Services</p>
+      <p>Contrary to popular belief, ipsum is not simply random.</p>
+      <div class="bitt">
+        <div class="ni1">
+          <p>Wedding Services</p>
+          <p>Contrary to popular belief, ipsum is not simply random.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

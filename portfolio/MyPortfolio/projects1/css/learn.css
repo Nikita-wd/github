@@ -1,0 +1,393 @@
+* {
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+    position: relative;
+}
+
+.d-flex p {
+    padding: 20px;
+}
+
+.ENROLL {
+    background: #00aeff;
+    border-color: #00aeff;
+    border-radius: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    /* margin-top: -10%; */
+}
+
+.text {
+    text-align: center;
+    /* margin-top: 9%; */
+    padding: 150px 20px;
+}
+
+.explore {
+    width: 200px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    line-height: 45px;
+    margin-left: 42%;
+}
+
+.bg {
+    background: rgba(47, 136, 245, 0.85);
+}
+
+.niki {
+    background: rgba(19, 106, 213, 0.05);
+    border-radius: 4px;
+}
+
+.bi {
+    color: #343a40cf;
+}
+
+.bg1 {
+    background: #ffffff;
+    color: #00aeff;
+}
+
+.wi {
+    background: #f8f9fa;
+}
+
+.biwi {
+    color: #666;
+    max-width: 30%;
+
+}
+
+.get {
+    background: #00aeff;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pi {
+    position: absolute;
+    top: -10%;
+    right: 30%;
+    max-width: 100px;
+}
+
+.pi img {
+    width: 500px;
+}
+
+.qi {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.page {
+    padding: 130px 30px;
+}
+
+.fari {
+    max-width: 100%;
+    text-align: center;
+    margin-left: 30px;
+    color: #666;
+}
+
+.li {
+    border-radius: 50%;
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+
+    margin-left: 42%;
+
+    line-height: 55px;
+}
+
+.divi img {
+    width: 350px;
+}
+
+.aivi {
+    background: white;
+    width: 350px;
+    height: 540px;
+
+
+}
+
+.right {
+    background-color: #f8f9fa;
+}
+
+.pinki {
+    /* background: url(img-school-1-min.jpg); */
+    background: rgba(19, 106, 213, 0.85);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 86vh;
+    padding: 13%
+}
+
+.nikiy {
+    margin-left: 25%;
+}
+
+.pinki ::before {
+    content: "";
+    position: absolute;
+    z-index: -3;
+    background: rgba(19, 106, 213, 0.85);
+}
+
+.biw {
+    width: 200px;
+    height: 50px;
+    background: lawngreen;
+    border-radius: 50px;
+    margin-left: 40%;
+    line-height: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.divio {
+    color: #666;
+    font-weight: 500;
+}
+
+.sita img {
+    max-width: 90%;
+}
+
+.sita::before {
+    content: "";
+    background: lightblue;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: -15%;
+    right: -15%;
+    /* margin-top: -30%; */
+}
+
+.admission {
+    background: lightblue;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+}
+
+.june {
+
+    background: white;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.june img {
+    width: 150px;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.june img:hover {
+    transform: scale(1.1);
+}
+
+.behind {
+    color: #666;
+    font-weight: 500;
+}
+
+.behind1 {
+    color: #959494;
+    font-weight: 500;
+}
+
+.mountains {
+    color: #666;
+    font-weight: 500;
+}
+
+.bach {
+    background-color: #f8f9fa;
+}
+
+.ankita {
+    /* background: lawngreen; */
+    max-width: 45%;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-left: 30%;
+    color: #136ad5;
+}
+
+.kiya {
+    font-weight: 500;
+    color: #686868;
+    font-size: 16px;
+    font-family: "Inter", sans-serif
+}
+
+.perason img {
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.piya {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.paragraph {
+    background-color: #f8f9fa;
+}
+
+.batch {
+    background: #666;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+
+.AWAY {
+    color: #666;
+    font-size: 17px;
+}
+
+.childer {
+    font-size: 18px;
+    color: #666;
+    font-weight: 500;
+}
+
+.queen img {
+    max-width: 450px;
+}
+
+.font-awesome {
+    background: lightcoral;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    /* line-height: 35px; */
+
+
+}
+
+.social li a {
+    width: 30px;
+    height: 30px;
+
+    display: inline-block;
+    background-color: lightcoral;
+    border-radius: 50%;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+}
+
+.font-awesome i {
+    color: red;
+    line-height: -100px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.instagram-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.backgroung23 {
+    background: #136ad5;
+}
+
+@media screen and (max-width:576px) {
+    .zsjh {
+        display: flex;
+        justify-content: center;
+        margin-left: 45%;
+    }
+
+    .aklyu {
+        margin-left: 45%;
+    }
+
+    .explore {
+        margin-left: 30%;
+    }
+
+    .page {}
+
+    .pi {
+        top: 25%;
+        right: 35%;
+    }
+
+    .pi img {
+        width: 200px;
+    }
+
+    .weoit {
+        margin-left: 13%;
+    }
+
+    .biw {
+        margin-left: 20%;
+    }
+
+    .sita::before {
+        width: 300px;
+        height: 300px;
+        right: -10%;
+    }
+
+    .june {
+        width: 428px;
+        height: 350px;
+        margin-top: 10px;
+    }
+
+    .queen img {
+        width: 300px;
+
+    }
+
+    .queen {
+        width: 300px;
+    }
+
+}

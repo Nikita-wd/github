@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.niki {
+    margin-left: 32%;
+
+}
+
+.navbar-expand-lg {
+    padding: 25px 50px !important;
+}
+
+.niki1 {
+    font-weight: 500 !important;
+}
+
+.bold {
+    font-size: 20px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+}
+
+.btn-primary {
+    background-color: #a8d741 !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+    border: 2px solid black !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 30px !important;
+    font-weight: 500 !important;
+    font-size: 1.2rem !important;
+    transition: 1s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1) rotate(10deg);
+    background: white !important;
+    color: black !important;
+    border: 2px solid black !important;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.row-bg {
+    align-items: center;
+    background: #a8d741;
+    padding: 8rem 3rem;
+    border-radius: 2rem;
+    /* margin: 30px !important; */
+}
+
+.btn-primary1 {
+    background-color: black !important;
+    border-color: #000000 !important;
+    color: white !important;
+    border-radius: 30px !important;
+    /* border: 2px solid white !important; */
+    border: 2px solid white !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 30px !important;
+    font-weight: 500 !important;
+    font-size: 1.2rem !important;
+    padding: 15px 40px !important;
+    transition: 1s;
+}
+
+.btn-primary1:hover {
+    /* transform: rotate(4.4deg) scale(1.1deg); */
+    transform: scale(1.1) rotate(10deg);
+    background: white !important;
+    color: black !important;
+    border: 2px solid black !important;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    /* margin-left: 70px !important; */
+}
+
+.nikii {
+    font-size: 90px
+}
+
+@media (max-width:500px) {
+    .btn-primary {
+
+        margin-left: 80px;
+    }
+
+    .d-flex {
+        margin-left: 110px;
+    }
+
+    .nikii {
+        font-size: 30px;
+    }
+
+    .row-bg {
+        padding: 10px 10px;
+    }
+}

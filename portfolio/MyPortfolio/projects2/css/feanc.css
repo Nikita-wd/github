@@ -1,0 +1,376 @@
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    /* border: 1px solid; */
+}
+
+.zkjdg {
+    /* border: 1px solid; */
+    margin-left: 20%;
+}
+
+.lakj {
+    padding: 20px 120px;
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+.kity {
+    border: 4px solid #ffbe33;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.oil {
+    background-color: #222831
+}
+
+.kity img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.qiu p:nth-child(1) {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+
+.kity img:hover {
+    transform: scale(1.1);
+}
+
+.lakj p:nth-child(1) {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lakj p:nth-child(2) {
+    max-width: 50%;
+    font-weight: 400;
+}
+
+.lak {
+
+    width: 180px;
+    height: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: 100%;
+}
+
+.KSFH {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.borde p {
+    padding: 0 10px;
+}
+
+.now {
+    width: 150px;
+    height: 45px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    background-color: #ffbe33;
+}
+
+.aputa img {
+    max-width: 80%;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.aitaaa {
+    /* padding: 100px 0; */
+    margin-top: 35%;
+}
+
+.qouer {
+    background: #222831;
+}
+
+.aitaaa p:nth-child(1) {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.aitaaa p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.qpitr {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.ow {
+    font-size: 30px;
+}
+
+.wopu {
+    margin-left: 40%;
+    width: 200px;
+    height: 45px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    background-color: #ffbe33;
+}
+
+.tiy {
+    background: lightcoral;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+.order {
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 40px;
+}
+
+/* .wiety {
+    background: url(hero-bg.jpg);
+    height: 100vh;
+    background-position: 100% 100%;
+    background-size: cover;
+} */
+
+.hero-area {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.bg-box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.bg-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: white; */
+}
+
+
+
+.iiii p {
+    padding: 5px 10px;
+}
+
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+.navbar-nav li a {
+    color: white;
+}
+
+.kpio {
+    margin-left: 35%;
+}
+
+.aita {
+    background: #f1f2f3;
+    border-radius: 20px 20px 0 60px;
+    /* overflow: hidden; */
+}
+
+.hiy {
+    padding: 10px 30px;
+}
+
+.piya {
+    background: #222831;
+    overflow: hidden;
+    border-radius: 20px;
+    /* padding: 0 20px; */
+
+}
+
+.aita img {
+    max-width: 55%;
+    margin-left: 60px;
+}
+
+.aita img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.we {
+    color: white;
+    padding: 10px;
+    background: #ffbe33;
+    border-radius: 50%;
+}
+
+.btn_box button {
+    border: none;
+    margin-top: 15px;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px
+}
+
+.form-control {
+    color: black;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.youre_name {
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.stati img {
+    margin-left: 40px;
+    margin-top: 70px;
+    opacity: 0.9;
+    z-index: -0;
+}
+
+.lorem {
+    background-color: #222831;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+
+}
+
+.bround {
+    background: #ffbe33;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    color: white;
+}
+
+.kiyrei {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+.wipoklhk {
+    background-color: #222831;
+}
+
+.broe {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+}
+
+.client1 {}
+
+.client1 img {
+    margin-top: 20px;
+    width: 100px;
+    border: 5px solid #ffbe33;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .hero-area {
+        height: 900px;
+    }
+
+    .lakj {
+        width: 600px;
+        margin-top: 100px;
+        margin-left: -120px;
+        height: 50px;
+    }
+
+    .zkjdg {
+        margin-left: 36%;
+    }
+
+    .order {
+        margin-left: 33%;
+    }
+
+    .stati img {
+        width: 360px;
+    }
+
+    .qpou {
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    .qpkitsw {
+        width: 700px;
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .lak {
+        margin-top: 70%;
+        margin-left: 20%;
+    }
+
+    .lawrje {
+        margin-left: 40%;
+    }
+
+}

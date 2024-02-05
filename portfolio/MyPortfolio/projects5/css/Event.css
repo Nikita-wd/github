@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9a9a9a;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #d4a762;
+}
+
+.navbar-nav {
+    margin-left: 15%;
+    color: #9a9a9a;
+}
+
+.navbar-nav li a {
+    color: #9a9a9a;
+}
+
+.navbar-brand .kiy {
+    font-size: 40px;
+    font-family: 'Playball', cursive;
+    font-weight: 700;
+    color: #d4a762;
+}
+
+.navbar-brand .kiy span {
+    color: black;
+}
+
+.your1 {
+    font-family: 'Playball', cursive;
+    font-size: 72px;
+    color: black;
+}
+
+.your1 span {
+    color: #d4a762;
+}
+
+.clients {
+    font-family: 'Playball', cursive;
+    font-weight: 500;
+    font-size: 45px;
+
+}
+
+.experienced {
+    font-family: 'Playball', cursive;
+    color: #d4a762;
+    font-size: 60px;
+}
+
+.Serv {
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+
+.First {
+    color: #d4a762;
+    font-family: 'Playball', cursive;
+}
+
+.Most {
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    color: #d4a762;
+}
+
+.Where {
+    font-family: 'Playball', cursive;
+}
+
+.fa-chevron-right {
+    color: #d4a762;
+}
+
+.fa-users {
+    font-size: 70px;
+}
+
+.fa-cheese {
+    font-size: 120px;
+    color: #d4a762;
+}
+
+.nikiii {
+    font-size: 120px;
+    color: #d4a762;
+}
+
+.bg-white1 {
+    background: white;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    /* height: 300px; */
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.bg-white2 {
+    background: #d4a762;
+    /* height: 300px; */
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    margin-top: -400px;
+    border-radius: 10px;
+}
+
+.bg-white1:hover .bg-white2 {
+    margin-top: -0px;
+}
+
+.border-primary {
+    color: #d4a762;
+    border-color: #d4a762;
+}
+
+.lang {
+    position: relative;
+}
+
+.lang1 {
+    color: #000;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+    background: rgba(212, 167, 98, 0.7);
+    border-radius: 8px;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.lang:hover .lang1 {
+    opacity: 1;
+}
+
+.one {
+    /* border-bottom-style: dashed; */
+    /* border-color: #d4a762; */
+    /* border: 5px dashed red; */
+    border-bottom: 2px dashed #d4a762;
+}

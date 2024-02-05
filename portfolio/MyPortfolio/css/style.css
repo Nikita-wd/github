@@ -89,9 +89,10 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(/img/background.jpg);
+    /* background-image: url(/img/background.jpg); */
     background-size: cover;
-    background-position: center;
+    /* background-position: 80%; */
+    background-position: center center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -487,6 +488,7 @@ form textarea {
     header {
         padding: 12px 2.5%;
         transition: .1s;
+
     }
 
     section {
@@ -515,7 +517,7 @@ form textarea {
     }
 }
 
-@media (max-width:920) {
+@media (max-width:920px) {
     .about {
         grid-template-columns: 1fr;
 
@@ -532,11 +534,36 @@ form textarea {
     }
 }
 
-@media (max-width: 480px) {
-    #menu-icon {
-        display: block;
+@media (max-width:576px) {
+    ul {
+        border: 1px solid red;
+        font-size: 20px;
     }
 
+    li {}
+
+    header {
+        /* padding: 40px 40px; */
+        /* display: none; */
+
+    }
+
+    .home {
+        /* background-position: 80%; */
+        background: none;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    #menu-icon {
+        display: none;
+    }
+}
+
+
+/* 
     .navlist {
         position: absolute;
         top: -1000px;
@@ -547,27 +574,28 @@ form textarea {
         background: var(--bg-color);
         text-align: left;
         transition: all .45s ease;
+        /* font-size: 10px; */
 
-    }
 
-    .navlist a {
-        display: block;
-        margin: 17px;
-        font-size: 20px;
-        transition: all .45s ease;
-        color: var(--text-color);
 
-    }
+/* .navlist a {
+    display: block;
+    margin: 17px;
+    font-size: 20px;
+    transition: all .45s ease;
+    color: var(--text-color);
+    font-size: 5px;
 
-    .navlist a:hover {
+} */
+
+/* .navlist a:hover {
         color: var(--main-color);
     }
 
-    navlist a.active {
+    .navlist a.active {
         color: var(--text-color);
     }
 
     .navlist.open {
         top: 100%;
-    }
-}
+    } */
