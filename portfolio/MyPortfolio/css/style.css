@@ -536,13 +536,20 @@ form textarea {
 
 @media (max-width:576px) {
     ul {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 20px;
+        /* margin-top: 50PX; */
+        /* display: none; */
     }
 
     li {}
 
+    #menu-icon {
+        /* display: block; */
+    }
+
     header {
+        position: relative;
         /* padding: 40px 40px; */
         /* display: none; */
 
@@ -554,11 +561,22 @@ form textarea {
     }
 
     .navlist {
+        /* display: none; */
         display: none;
+        position: absolute;
+        top: 85%;
+        right: 30%;
+        padding: 10px 10px;
+
     }
 
     #menu-icon {
-        display: none;
+        display: block;
+    }
+
+    .home-text {
+        /* padding: 10px 5px; */
+        margin-top: 40%;
     }
 }
 

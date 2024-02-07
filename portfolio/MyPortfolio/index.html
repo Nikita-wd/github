@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Responsive Portfolio Website</title>
+    <title>Portfolio</title>
     <!---custom css link---->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -20,10 +20,10 @@
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About Me</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#Projects">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="bx bx-menu" id="menu-icon"></div>
+      <div class="bx bx-menu" id="menu-icon" onclick="Onclick()"></div>
     </header>
 
     <!---------Home Section--------------->
@@ -125,7 +125,7 @@
     </section>
 
     <!-----------Portfolio Section--------------->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="Projects">
       <div class="main-text">
         <h2><span>latest</span>Project</h2>
       </div>
@@ -272,5 +272,19 @@
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </section>
+
+    <script>
+      let bar = document.getElementById("menu-icon");
+      let ul = document.querySelector(".navlist");
+      console.log(bar);
+
+      function Onclick() {
+        if (ul.style.display == "none") {
+          ul.style.display = "block";
+        } else {
+          ul.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
