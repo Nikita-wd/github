@@ -1,0 +1,180 @@
+/* .niki {
+    background: linear-gradient(rgba(231, 99, 28, 0.8), rgba(231, 99, 28, 0.8)), url(/imge/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(19\).png);
+    height: 500px;
+    width: 500px;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
+} */
+
+* {
+    border: 1px solid;
+}
+
+.bol-2 img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+}
+
+.AMAZING-DANCE {
+    width: 100%;
+    height: auto;
+}
+
+.main-box {
+
+    padding: 30% 5%;
+    /* margin-top: 35%; */
+    width: 60%;
+    margin-left: 30px;
+
+}
+
+.Register-Now {
+    margin-top: 30px;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    width: 322px;
+    height: 65px;
+    line-height: 55px;
+    border-radius: 4px;
+    background-color: #e8631c;
+}
+
+
+
+
+.main-center {
+    background: url(/imge/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(3\).png);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    padding: 0;
+    background-position: 70% 100%;
+    background-position: top center center
+}
+
+.niki {
+    margin-left: 20%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color: #303030;
+}
+
+.box-1 {
+    background-color: #e8631c;
+    width: 100%;
+    height: auto;
+    /* height: 370px; */
+    /* padding: 15px 15px; */
+}
+
+.Dance-Tour p:nth-child(1) {
+    font-size: 75px;
+}
+
+.Dance-Tour p:nth-child(2) {
+    font-size: 30px;
+}
+
+.Australia {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.Australia p:nth-child(1) {
+    font-size: 37px;
+}
+
+.Australia p:nth-child(2) {
+    font-size: 22px;
+}
+
+.profre {}
+
+.profre p:nth-child(4) {
+    font-size: 40px;
+    width: 100%;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #303030;
+    text-align: center;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.AMAZING-DANCE p:nth-child(3) {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #303030;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.AMAZING-DANCE {
+    padding: 35% 5%;
+    /* margin: auto; */
+}
+
+.AMAZING-DANCE p:nth-child(1) {
+    font-size: 75px;
+}
+
+.AMAZING-DANCE p:nth-child(2) {
+    font-size: 30px;
+}
+
+.profre p:nth-child(1) {
+    font-size: 70px;
+}
+
+.profre p:nth-child(3) {
+    font-size: 21px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.profre p:nth-child(2) {
+    font-size: 37px;
+}
+
+a {
+    font-size: 25px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    font-weight: 400 !important;
+    font-family: "Oswald" !important;
+}
+
+@media(max-width:576px) {
+    .niki {
+        margin-left: 10% !important;
+    }
+
+    .main-box {
+        padding: 90% 5% !important;
+    }
+}
