@@ -6,22 +6,28 @@
     background-size: cover;
     background-position: center center;
 } */
+body {
+    overflow-x: hidden;
+}
 
 * {
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .bol-2 img {
-    width: 100%;
-    height: auto;
+    width: 103%;
+    height: 850px;
     background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
+    background-position: top center;
 }
 
-.AMAZING-DANCE {
+/* .AMAZING-DANCE {
     width: 100%;
     height: auto;
-}
+
+} */
 
 .main-box {
 
@@ -76,6 +82,56 @@
     width: 100%;
     height: auto;
     background-color: #303030;
+}
+
+.main-center2 {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    margin-top: 30%;
+    right: 0%;
+    z-index: 1;
+
+}
+
+/* .main-center2::after{
+  contain: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+} */
+
+.main-center1 {
+    position: relative;
+}
+
+.main-center1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150vh;
+    width: 100%;
+    background-color: #e8631c;
+    z-index: 1;
+    opacity: 40%;
+}
+
+.main-center1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(/imge/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(19\).png);
+    height: 150vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+
 }
 
 .box-1 {
@@ -135,8 +191,14 @@
 }
 
 .AMAZING-DANCE {
-    padding: 35% 5%;
+    /* padding: 35% 5%; */
     /* margin: auto; */
+    /* margin-top: 10%; */
+    padding: 10PX 10px;
+    margin: 30% 5%;
+    width: 100%;
+    height: 350px;
+    border: 1px solid;
 }
 
 .AMAZING-DANCE p:nth-child(1) {
