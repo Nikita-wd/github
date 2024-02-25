@@ -4,36 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      div{
+        
+         margin-top: 30px;
+      }
+      .box-1{
+         border: 1px solid red;
+         background: red;
+         /* display: none; */
+         visibility: hidden;
+      }
+      .box-2{
+         border: 1px solid yellow;
+         background: yellow;
+      }
+      .box-3{
+          border: 1px solid green;
+          background: green;
+      }
+    </style>
 </head>
-<body style="background: gray;">
-    <h2 style="color: red;">color  </h2>
-    <h2 style="background-color: lightblue; width: 100%;"> background  </h2>
 
-    <h2 style="background: linear-gradient(red,rgba(0, 0, 0,1),#fff,green);">background  </h2>
+<div>
+   <div class="box-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloremque impedit, deserunt beatae debitis amet. Optio, facere? Nam minima esse incidunt obcaecati vero commodi vel, deleniti quia officia quisquam aspernatur.
+   </div>
+   
+   <div class="box-2">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius odit, dicta molestias quo minima, aliquam maxime culpa exercitationem placeat laudantium corrupti dolorum doloribus nam veritatis commodi, officiis optio itaque quis!
+   </div>
+   
+   <div class="box-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima quae sint eum officia. Commodi totam rerum aspernatur et obcaecati molestias, eius fuga, error nisi, exercitationem amet quo vero vitae!
+   </div>
+</div>
 
-    <h2 style="background: linear-gradient(red,rgba(0,0,0,1),#fff,green);">BACKGROUND</h2>
 
+<select>
+   <option value="option1">विकल्प 1</option>
+   <option value="option2">विकल्प 2</option>
+   <option value="option3">विकल्प 3</option>
+</select>
+<br>
+<label for="">
+   nmvkdfhvdk
+</label>
 
- <h1 style="font-size: 100px;text-shadow: 3px 5px 8px red;">
-    Nikita
-
- </h1>
- <h1 style="font-size: 100px; text-shadow: -4px -6px 8px green;">
-    Nikita 
- </h1>
- <h1 style="font-size: 100px; text-shadow: 0px 0px 20px blue;">  Nikita </h1>
- <h1 style="font-size: 100px; text-shadow: 3px 3px 5px red ,-3px -3px 5px green;"> Nikita </h1>
-
- <p style="color: transparent "> bold text </p>
-
- <p style="color:transparent">BOLD TEXT</p>
- <div>DIV</div>
- <li>Li</li>
-
- <h2 style=" text-orientation: upright;writing-mode: vertical-lr;">
-    TEXT ORIENTATION
-</h2>
-<h1 style="text-orientation: sideways;writing-mode: vertical-lr;"> text ORIENTATION</h1>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Safari">
+    <option value="Edge">
+    <option value="Opera">
+</datalist>
 
 </body>
 </html>
